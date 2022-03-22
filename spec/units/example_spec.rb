@@ -2,18 +2,18 @@
 
 require 'example'
 
-TEST_INPUTS = [2,
-               3,
-               1,
-               5,
-               7000
+TEST_INPUTS = [[6, 2, 3, 8],
+               [0, 3],
+               [5, 4, 6],
+               [6, 3],
+               [1]
 ]
 
-TEST_OUTPUTS = [5,
-                13,
-                1,
-                41,
-                97986001
+TEST_OUTPUTS = [3,
+                2,
+                0,
+                2,
+                0
 ]
 
 describe 'example_method' do
