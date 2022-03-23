@@ -1,7 +1,13 @@
 # frozen_string_literal: true
 
-def solution(s1, s2)
-  sum = 0
-  ('a'..'z').each { |character| sum += [s1.split('').count(character), s2.split('').count(character)].min }
-  sum
+def solution(input_array)
+  people = input_array.reject { |element| element == -1 }.sort
+  i = -1
+
+  input_array.map! do |element|
+    next -1 if element == -1
+
+    i += 1
+    people[i]
+  end
 end

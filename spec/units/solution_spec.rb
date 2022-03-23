@@ -1,46 +1,40 @@
 # frozen_string_literal: true
 
-# frozen_string_literal:
-
 require 'solution'
 
 TEST_I_O = [
-  { input1: 'aabcc', input2: 'adcaa', output: 3 }, # 01
-  { input1: 'zzzz', input2: 'zzzzzzz', output: 4 }, # 02
-  { input1: 'abca', input2: 'xyzbac', output: 3 } # 03
-  # { input1: , input2: , output:  }, #04
-  # { input1: , input2: , output:  }, #05
-  # { input1: , input2: , output:  }, #06
-  # { input1: , input2: , output:  }, #07
-  # { input1: , input2: , output:  }, #08
-  # { input1: , input2: , output:  }, #09
-  # { input1: , input2: , output:  }, #10
-  # { input1: , input2: , output:  }, #11
-  # { input1: , input2: , output:  }, #12
-  # { input1: , input2: , output:  }, #13
-  # { input1: , input2: , output:  }, #14
-  # { input1: , input2: , output:  }, #15
-  # { input1: , input2: , output:  }, #16
-  # { input1: , input2: , output:  }, #17
-  # { input1: , input2: , output:  }, #18
-  # { input1: , input2: , output:  }, #19
-  # { input1: , input2: , output:  }  #20
+  { input: [-1, 150, 190, 170, -1, -1, 160, 180], output: [-1, 150, 160, 170, -1, -1, 180, 190] }, # 01
+  { input: [-1, -1, -1, -1, -1], output: [-1, -1, -1, -1, -1] }, # 02
+  { input: [-1], output: [-1] }, # 03
+  { input: [4, 2, 9, 11, 2, 16], output: [2, 2, 4, 9, 11, 16] }, # 04
+  { input: [2, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1], output: [1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2] }, # 05
+  { input: [23, 54, -1, 43, 1, -1, -1, 77, -1, -1, -1, 3], output: [1, 3, -1, 23, 43, -1, -1, 54, -1, -1, -1, 77] } # 06
+  # { input: , output:  }, # 07
+  # { input: , output:  }, # 08
+  # { input: , output:  }, # 09
+  # { input: , output:  }, # 10
+  # { input: , output:  }, # 11
+  # { input: , output:  }, # 12
+  # { input: , output:  }, # 13
+  # { input: , output:  }, # 14
+  # { input: , output:  }, # 15
+  # { input: , output:  }, # 16
+  # { input: , output:  }, # 17
+  # { input: , output:  }, # 18
+  # { input: , output:  }, # 19
+  # { input: , output:  }  # 20
 ].freeze
 
 describe 'solution' do
-  # it 'passes the supplied tests with 1 input and 1 output' do
-  #   TEST_I_O.each_with_index do |element, index|
-  #     expect(solution(element[:input])).to eq(element[:output]), <<~HEREDOC
-  #       "Failed test #{index + 1}. Expected #{element[:input]} to equal #{element[:output]}."
-  #     HEREDOC
-  #   end
-  # end
-
-  it 'passes the supplied tests with 2 inputs and 1 output' do
-    TEST_I_O.each_with_index do |element, index|
-      expect(solution(element[:input1], element[:input2])).to eq(element[:output]), <<~HEREDOC
-        "Failed test #{index + 1}."
-      HEREDOC
+  it 'passes the supplied tests with 1 input and 1 output' do
+    TEST_I_O.each do |element|
+      expect(solution(element[:input])).to eq(element[:output])
     end
   end
+
+  # it 'passes the supplied tests with 2 inputs and 1 output' do
+  #   TEST_I_O.each do |element|
+  #     expect(solution(element[:input1], element[:input2])).to eq(element[:output])
+  #   end
+  # end
 end
