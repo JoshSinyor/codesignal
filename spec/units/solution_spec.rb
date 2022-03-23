@@ -5,16 +5,16 @@
 require 'solution'
 
 TEST_I_O = [
-  { input: [[0, 1, 1, 2], [0, 5, 0, 0], [2, 0, 3, 3]], output: 9 }, # 01
-  { input: [[1, 1, 1, 0], [0, 5, 0, 1], [2, 1, 3, 10]], output: 9 }, # 02
-  { input: [[1, 1, 1], [2, 2, 2], [3, 3, 3]], output: 18 }, # 03
-  { input: [[0]], output: 0 }, # 04
-  { input: [[1, 0, 3], [0, 2, 1], [1, 2, 0]], output: 5 }, # 05
-  { input: [[1], [5], [0], [2]], output: 6 }, # 06
-  { input: [[1, 2, 3, 4, 5]], output: 15 }, # 07
-  { input: [[2], [5], [10]], output: 17 }, # 08
-  { input: [[4, 0, 1], [10, 7, 0], [0, 0, 0], [9, 1, 2]], output: 15 }, # 09
-  { input: [[1]], output: 1 } # 10
+  { input: %w[aba aa ad vcd aba], output: %w[aba vcd aba] } # 01
+  # { input: , output:  }, #02
+  # { input: , output:  }, #03
+  # { input: , output:  }, #04
+  # { input: , output:  }, #05
+  # { input: , output:  }, #06
+  # { input: , output:  }, #07
+  # { input: , output:  }, #08
+  # { input: , output:  }, #09
+  # { input: , output:  }, #10
   # { input: , output:  }, #11
   # { input: , output:  }, #12
   # { input: , output:  }, #13

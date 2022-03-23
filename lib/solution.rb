@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-def solution(matrix)
-  sum = 0
-  matrix.transpose.each { |row| row.each.select { |room| room != 0 ? sum += room : break } }
-  sum
+def solution(input_array)
+  input_array.select { |string| string.length == input_array.map(&:length).max }
 end
