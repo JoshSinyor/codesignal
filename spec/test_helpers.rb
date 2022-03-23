@@ -22,3 +22,26 @@
 #   { input: , output:  }, #19
 #   { input: , output:  }  #20
 # ].freeze
+
+# TEST_I_O = [
+#   { input1: , input2: , output:  }, #01
+#   { input1: , input2: , output:  }, #02
+#   { input1: , input2: , output:  }, #03
+#   { input1: , input2: , output:  }, #04
+#   { input1: , input2: , output:  }, #05
+#   { input1: , input2: , output:  }, #06
+#   { input1: , input2: , output:  }, #07
+#   { input1: , input2: , output:  }, #08
+#   { input1: , input2: , output:  }, #09
+#   { input1: , input2: , output:  }, #10
+#   { input1: , input2: , output:  }, #11
+#   { input1: , input2: , output:  }, #12
+#   { input1: , input2: , output:  }, #13
+#   { input1: , input2: , output:  }, #14
+#   { input1: , input2: , output:  }, #15
+#   { input1: , input2: , output:  }, #16
+#   { input1: , input2: , output:  }, #17
+#   { input1: , input2: , output:  }, #18
+#   { input1: , input2: , output:  }, #19
+#   { input1: , input2: , output:  }  #20
+# ].freeze
