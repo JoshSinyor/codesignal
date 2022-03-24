@@ -3,13 +3,11 @@
 require 'solution'
 
 TEST_I_O = [
-  { input: '(bar)', output: 'rab' }, # 01
-  { input: 'foo(bar)baz', output: 'foorabbaz' }, # 02
-  { input: 'foo(bar)baz(blim)', output: 'foorabbazmilb' }, # 03
-  { input: 'foo(bar(baz))blim', output: 'foobazrabblim' }, # 04
-  { input: '', output: '' }, # 05
-  { input: '()', output: '' }, # 06
-  { input: '(abc)d(efg)', output: 'cbadgfe' } # 07
+  { input: [50, 60, 60, 45, 70], output: [180, 105] }, # 01
+  { input: [100, 50], output: [100, 50] }, # 02
+  { input: [80], output: [80, 0] }, # 03
+  { input: [100, 50, 50, 100], output: [150, 150] }, # 04
+  { input: [100, 51, 50, 100], output: [150, 151] } # 05
 ].freeze
 
 describe 'solution' do
