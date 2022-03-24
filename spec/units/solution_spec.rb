@@ -3,11 +3,11 @@
 require 'solution'
 
 TEST_I_O = [
-  { input: [50, 60, 60, 45, 70], output: [180, 105] }, # 01
-  { input: [100, 50], output: [100, 50] }, # 02
-  { input: [80], output: [80, 0] }, # 03
-  { input: [100, 50, 50, 100], output: [150, 150] }, # 04
-  { input: [100, 51, 50, 100], output: [150, 151] } # 05
+  { input: %w[abc ded], output: ['*****', '*abc*', '*ded*', '*****'] }, # 01
+  { input: ['a'], output: ['***', '*a*', '***'] }, # 02
+  { input: ['aa', '**', 'zz'], output: ['****', '*aa*', '****', '*zz*', '****'] }, # 03
+  { input: %w[abcde fghij klmno pqrst uvwxy], output: ['*******', '*abcde*', '*fghij*', '*klmno*', '*pqrst*', '*uvwxy*', '*******'] }, # 04
+  { input: ['wzy**'], output: ['*******', '*wzy***', '*******'] } # 05
 ].freeze
 
 describe 'solution' do
