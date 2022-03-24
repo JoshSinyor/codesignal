@@ -3,21 +3,19 @@
 require 'solution'
 
 TEST_I_O = [
-  { input: 1230, output: true }, # 01
-  { input: 239_017, output: false }, # 02
-  { input: 134_008, output: true }, # 03
-  { input: 10, output: false }, # 04
-  { input: 11, output: true }, # 05
-  { input: 1010, output: true }, # 06
-  { input: 261_534, output: false }, # 07
-  { input: 100_000, output: false }, # 08
-  { input: 999_999, output: true }, # 09
-  { input: 123_321, output: true } # 10
+  { input: '(bar)', output: 'rab' }, # 01
+  { input: 'foo(bar)baz', output: 'foorabbaz' }, # 02
+  { input: 'foo(bar)baz(blim)', output: 'foorabbazmilb' }, # 03
+  { input: 'foo(bar(baz))blim', output: 'foobazrabblim' }, # 04
+  { input: '', output: '' }, # 05
+  { input: '()', output: '' }, # 06
+  { input: '(abc)d(efg)', output: 'cbadgfe' } # 07
 ].freeze
 
 describe 'solution' do
   it 'passes the supplied tests with 1 input and 1 output' do
-    TEST_I_O.each do |element|
+    TEST_I_O.each_with_index do |element, index|
+      puts "Executing test #{index + 1}."
       expect(solution(element[:input])).to eq(element[:output])
     end
   end
