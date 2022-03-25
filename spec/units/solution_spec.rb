@@ -3,16 +3,9 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, input: 'aabb', output: true }, # 01
-  { test: 2, input: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaabc', output: false }, # 02
-  { test: 3, input: 'abbcabb', output: true }, # 03
-  { test: 4, input: 'zyyzzzzz', output: true }, # 04
-  { test: 5, input: 'z', output: true }, # 05
-  { test: 6, input: 'zaa', output: true }, # 06
-  { test: 7, input: 'abca', output: false }, # 07
-  { test: 8, input: 'abcad', output: false }, # 08
-  { test: 9, input: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbccccaaaaaaaaaaaaa', output: false }, # 09
-  { test: 10, input: 'abdhuierf', output: false } # 10
+  { test: 1, input: 'NS', output: 1 }, # 01
+  { test: 2, input: 'WEWNES', output: 2 }, # 02
+  { test: 3, input: 'SxWxNxN', output: 0 } # 03
 ].freeze
 
 describe 'solution' do

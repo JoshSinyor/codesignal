@@ -1,11 +1,26 @@
 # frozen_string_literal: true
 
-def solution(input_string)
-  input_string.split('').uniq.map { |char| input_string.count(char) }.count(&:odd?) < 2
+def solution(directions)
+  directions = directions.split('')
+
+  directions.keep_if { |element| element =~ /[NSEW]/ }
+
+  locations = [[0, 0]]
+  xaxis = 0
+  yaxis = 0
+
+  directions.each do |direction|
+    case direction
+    when 'N'
+      locations.push([xaxis += 1, yaxis += 0])
+    when 'E'
+      locations.push([xaxis += 0, yaxis += 1])
+    when 'S'
+      locations.push([xaxis -= 1, yaxis += 0])
+    when 'W'
+      locations.push([xaxis += 0, yaxis -= 1])
+    end
+  end
+
+  locations.select { |place| locations.count(place) > 1 }.uniq.size
 end
-
-# Alternative solution
-
-# def solution(input_string)
-#   ('a'..'z').map { |char| input_string.count(char).odd? }.count(true) < 2
-# end
