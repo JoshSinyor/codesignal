@@ -1,14 +1,13 @@
 # frozen_string_literal: true
 
-def solution(your_left, your_right, their_left, their_right)
-  [your_left, your_right].sort == [their_left, their_right].sort
+def solution(input_array)
+  input_array.each_cons(2).to_a.map { |consecutive_pair| consecutive_pair.reduce(:-).abs }.max
 end
 
-# Alternative solution
+# Alternative solution using index
 
-# def solution(your_left, your_right, their_left, their_right)
-#   return true if your_left == their_left && your_right == their_right
-#   return true if your_left == their_right && your_right == their_left
-#
-#   false
+# def solution(input_array)
+#   differences = []
+#   input_array[...-1].each_with_index { |element, index| differences.push((element - input_array[index + 1]).abs) }
+#   differences.max
 # end
