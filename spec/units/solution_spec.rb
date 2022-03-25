@@ -3,9 +3,9 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, input: 'NS', output: 1 }, # 01
-  { test: 2, input: 'WEWNES', output: 2 }, # 02
-  { test: 3, input: 'SxWxNxN', output: 0 } # 03
+  { test: 1, input: 'bob has a racecar', output: 'racecar' }, # 01
+  { test: 2, input: 'bob has a racecar and a bike', output: 'a racecar a' }, # 02
+  { test: 3, input: 'anna arrived at noon', output: 'anna' } # 03
 ].freeze
 
 describe 'solution' do

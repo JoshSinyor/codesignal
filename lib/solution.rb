@@ -1,26 +1,16 @@
 # frozen_string_literal: true
 
-def solution(directions)
-  directions = directions.split('')
-
-  directions.keep_if { |element| element =~ /[NSEW]/ }
-
-  locations = [[0, 0]]
-  xaxis = 0
-  yaxis = 0
-
-  directions.each do |direction|
-    case direction
-    when 'N'
-      locations.push([xaxis += 1, yaxis += 0])
-    when 'E'
-      locations.push([xaxis += 0, yaxis += 1])
-    when 'S'
-      locations.push([xaxis -= 1, yaxis += 0])
-    when 'W'
-      locations.push([xaxis += 0, yaxis -= 1])
+def solution(input_string)
+  longest = ''
+  first_iterator = 0
+  while first_iterator < input_string.length
+    second_iterator = 1
+    while (first_iterator + second_iterator) <= input_string.length
+      chunk = input_string.slice(first_iterator, second_iterator)
+      longest = chunk if (chunk.length > longest.length) && (chunk == chunk.reverse)
+      second_iterator += 1
     end
+    first_iterator += 1
   end
-
-  locations.select { |place| locations.count(place) > 1 }.uniq.size
+  longest
 end
