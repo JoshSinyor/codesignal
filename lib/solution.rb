@@ -1,30 +1,21 @@
 # frozen_string_literal: true
 
-# require 'ipaddr' Required by CodeSignal
-
-def solution(input_string)
-  IPAddr.new(input_string).ipv4?
-rescue ArgumentError
-  false
+def solution(input_array)
+  (2..input_array.max + 1).each do |jump|
+    return jump if input_array.select { |obstacle| (obstacle % jump).zero? }.empty?
+  end
 end
 
-# Alternate solution using only regex
+# Alternate solution using iterator
 
-# def solution(input_string)
-#   input_string =~ /^((25[0-5]|(2[0-4]|1[0-9]|[1-9]|)[0-9])(\.(?!$)|$)){4}$/ ? true : false
-# end
-
-# Alternate solution with more legible regex
-
-# def solution(input_string)
-#   return false unless input_string =~ /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/
+# def solution(input_array)
+#   i = 2
 #
-#   input_string = input_string.split('.')
+#   loop do
+#     output_array = []
+#     input_array.each { |obstacle| output_array.push((obstacle % i).zero?) }
+#     return i if output_array.all? { |output| output == false }
 #
-#   input_string.each do |range|
-#     return false if range != range.to_i.to_s
-#     return false if range.to_i.negative? || range.to_i > 255
+#     i += 1
 #   end
-#
-#   true
 # end

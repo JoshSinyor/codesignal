@@ -22,7 +22,7 @@
 #   { test: 17, input: , output:  }, # 17
 #   { test: 18, input: , output:  }, # 18
 #   { test: 19, input: , output:  }, # 19
-#   { test: 20, input: , output:  }  # 20
+#   { test: 20, input: , output:  } # 20
 # ].freeze
 #
 # describe 'solution' do
@@ -57,7 +57,7 @@
 #   { test: 17, input1: , input2: , output:  }, # 17
 #   { test: 18, input1: , input2: , output:  }, # 18
 #   { test: 19, input1: , input2: , output:  }, # 19
-#   { test: 20, input1: , input2: , output:  }  # 20
+#   { test: 20, input1: , input2: , output:  } # 20
 # ].freeze
 #
 # describe 'solution' do
@@ -92,7 +92,7 @@
 #   { test: 17, input1: , input2: , input3: , output:  }, # 17
 #   { test: 18, input1: , input2: , input3: , output:  }, # 18
 #   { test: 19, input1: , input2: , input3: , output:  }, # 19
-#   { test: 20, input1: , input2: , input3: , output:  }  # 20
+#   { test: 20, input1: , input2: , input3: , output:  } # 20
 # ].freeze
 #
 # describe 'solution' do
@@ -127,7 +127,7 @@
 #   { test: 17, input1: , input2: , input3: , input4: , output:  }, # 17
 #   { test: 18, input1: , input2: , input3: , input4: , output:  }, # 18
 #   { test: 19, input1: , input2: , input3: , input4: , output:  }, # 19
-#   { test: 20, input1: , input2: , input3: , input4: , output:  }  # 20
+#   { test: 20, input1: , input2: , input3: , input4: , output:  } # 20
 # ].freeze
 #
 # describe 'solution' do
