@@ -13,6 +13,6 @@ group :test do
 end
 
 group :linters do
-  gem 'rubocop', '>= 1.26.0', require: false
-  gem 'rubocop-rspec', '>= 2.9.0', require: false
+  gem 'rubocop', '>= 1.27.0', require: false
+  gem 'rubocop-rspec', '>= 2.10.0', require: false
 end
