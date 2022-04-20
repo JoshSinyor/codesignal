@@ -3,12 +3,12 @@
 require 'solution'
 
 TEST_I_O = [
-  # { test: 1, input: [[1, 1, 1], [1, 7, 1], [1, 1, 1]], output: [[1]] }, # 01
-  # { test: 2, input: [[0, 18, 9], [27, 9, 0], [81, 63, 45]], output: [[28]] }, # 02
-  { test: 3, input: [[36, 0, 18, 9], [27, 54, 9, 0], [81, 63, 72, 45]], output: [[40, 30]] }, # 03
-  { test: 4, input: [[7, 4, 0, 1], [5, 6, 2, 2], [6, 10, 7, 8], [1, 4, 2, 0]], output: [[5, 4], [4, 4]] }, # 04
-  { test: 5, input: [[36, 0, 18, 9, 9, 45, 27], [27, 0, 54, 9, 0, 63, 90], [81, 63, 72, 45, 18, 27, 0], [0, 0, 9, 81, 27, 18, 45], [45, 45, 27, 27, 90, 81, 72], [45, 18, 9, 0, 9, 18, 45], [27, 81, 36, 63, 63, 72, 81]], output: [[39, 30, 26, 25, 31], [34, 37, 35, 32, 32], [38, 41, 44, 46, 42], [22, 24, 31, 39, 45], [37, 34, 36, 47, 59]] }, # 05
-  { test: 6, input: [[36, 0, 18, 9, 9, 45, 27], [27, 0, 254, 9, 0, 63, 90], [81, 255, 72, 45, 18, 27, 0], [0, 0, 9, 81, 27, 18, 45], [45, 45, 227, 227, 90, 81, 72], [45, 18, 9, 255, 9, 18, 45], [27, 81, 36, 127, 255, 72, 81]], output: [[82, 73, 48, 25, 31], [77, 80, 57, 32, 32], [81, 106, 88, 68, 42], [44, 96, 103, 89, 45], [59, 113, 137, 126, 80]] } # 06
+  { test: 1, input: [[true, false, false], [false, true, false], [false, false, false]], output: [[1, 2, 1], [2, 1, 1], [1, 1, 1]] }, # 01
+  { test: 2, input: [[false, false, false], [false, false, false]], output: [[0, 0, 0], [0, 0, 0]] }, # 02
+  { test: 3, input: [[true, false, false, true], [false, false, true, false], [true, true, false, true]], output: [[0, 2, 2, 1], [3, 4, 3, 3], [1, 2, 3, 1]] }, # 03
+  { test: 4, input: [[true, true, true], [true, true, true], [true, true, true]], output: [[3, 5, 3], [5, 8, 5], [3, 5, 3]] }, # 04
+  { test: 5, input: [[false, true, true, false], [true, true, false, true], [false, false, true, false]], output: [[3, 3, 3, 2], [2, 4, 5, 2], [2, 3, 2, 2]] }, # 05
+  { test: 6, input: [[true, false], [true, false], [false, true], [false, false], [false, false]], output: [[1, 2], [2, 3], [2, 1], [1, 1], [0, 0]] } # 06
 ].freeze
 
 describe 'solution' do
