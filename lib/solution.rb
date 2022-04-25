@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-def solution(input_number)
-  input_number.digits.all?(&:even?)
+def solution(variable_name)
+  variable_name.match?(/^[^\W\d]\w*+$/)
 end
