@@ -3,24 +3,18 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, input: %w[aba bbb bab], output: false }, # 01
-  { test: 2, input: %w[ab bb aa], output: true }, # 02
-  { test: 3, input: %w[q q], output: false }, # 03
-  { test: 4, input: %w[zzzzab zzzzbb zzzzaa], output: true }, # 04
-  { test: 5, input: %w[ab ad ef eg], output: false }, # 05
-  { test: 6, input: %w[abc bef bcc bec bbc bdc], output: true }, # 06
-  { test: 7, input: %w[abc abx axx abc], output: false }, # 07
-  { test: 8, input: %w[abc abx axx abx abc], output: true }, # 08
-  { test: 9, input: %w[f g a h], output: true }, # 09
-  { test: 10, input: %w[ff gf af ar hf], output: true }, # 10
-  { test: 11, input: %w[a b c], output: true } # 11
+  { test: 1, input1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], input2: 3, output: [1, 2, 4, 5, 7, 8, 10] }, # 01
+  { test: 2, input1: [1, 1, 1, 1, 1], input2: 1, output: [] }, # 02
+  { test: 3, input1: [1, 2, 1, 2, 1, 2, 1, 2], input2: 2, output: [1, 1, 1, 1] }, # 03
+  { test: 4, input1: [1, 2, 1, 2, 1, 2, 1, 2], input2: 10, output: [1, 2, 1, 2, 1, 2, 1, 2] }, # 04
+  { test: 5, input1: [2, 4, 6, 8, 10], input2: 2, output: [2, 6, 10] } # 05
 ].freeze
 
 describe 'solution' do
-  it 'passes the supplied tests with 1 input and 1 output' do
+  it 'passes the supplied tests with 2 inputs and 1 output' do
     TEST_I_O.each do |element|
       puts "  Executing test #{element[:test]}..."
-      expect(solution(element[:input])).to eq(element[:output])
+      expect(solution(element[:input1], element[:input2])).to eq(element[:output])
       puts '    Passed.'
     end
   end
