@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+# Timing tests
+# start_time = Time.new
+# print "Processing Time: #{((Time.now - start_time).to_f * 1000).round(5)} milliseconds."
+
 # One input, one output
 
 # TEST_I_O = [
@@ -28,9 +32,9 @@
 # describe 'solution' do
 #   it 'passes the supplied tests with 1 input and 1 output' do
 #     TEST_I_O.each do |element|
-#       puts "Executing test #{element[:test]}..."
+#       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input])).to eq(element[:output])
-#       puts 'Passed.'
+#       puts '    Passed.'
 #     end
 #   end
 # end
@@ -63,9 +67,9 @@
 # describe 'solution' do
 #   it 'passes the supplied tests with 2 inputs and 1 output' do
 #     TEST_I_O.each do |element|
-#       puts "Executing test #{element[:test]}..."
+#       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input1], element[:input2])).to eq(element[:output])
-#       puts 'Passed.'
+#       puts '    Passed.'
 #     end
 #   end
 # end
@@ -98,9 +102,9 @@
 # describe 'solution' do
 #   it 'passes the supplied tests with 3 inputs and 1 output' do
 #     TEST_I_O.each do |element|
-#       puts "Executing test #{element[:test]}..."
+#       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input1], element[:input2], element[:input3])).to eq(element[:output])
-#       puts 'Passed.'
+#       puts '    Passed.'
 #     end
 #   end
 # end
@@ -133,9 +137,9 @@
 # describe 'solution' do
 #   it 'passes the supplied tests with 4 inputs and 1 output' do
 #     TEST_I_O.each do |element|
-#       puts "Executing test #{element[:test]}..."
+#       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input1], element[:input2], element[:input3], element[:input4])).to eq(element[:output])
-#       puts 'Passed.'
+#       puts '    Passed.'
 #     end
 #   end
 # end
