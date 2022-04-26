@@ -1,18 +1,12 @@
 # frozen_string_literal: true
 
-def solution(deposit, rate, threshold)
-  Math.log((threshold.to_f / deposit), 1 + (rate.to_f / 100)).ceil
+def solution(input_array)
+  input_array[(input_array.length - 1) / 2.0].floor
 end
 
-# Alternative, insufficiently fast iterative solution
+# Alternative explicit solution
 
-# def solution(deposit, rate, threshold)
-#   i = 0
-
-#   until deposit >= threshold
-#     deposit += deposit * rate / 100
-#     i += 1
-#   end
-
-#   i
+# def solution(input_array)
+#   median = (input_array[(input_array.length - 1) / 2] + input_array[input_array.length / 2]) / 2.0
+#   input_array.min_by { |element| (median - element).abs }
 # end
