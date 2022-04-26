@@ -3,18 +3,19 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, input1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], input2: 3, output: [1, 2, 4, 5, 7, 8, 10] }, # 01
-  { test: 2, input1: [1, 1, 1, 1, 1], input2: 1, output: [] }, # 02
-  { test: 3, input1: [1, 2, 1, 2, 1, 2, 1, 2], input2: 2, output: [1, 1, 1, 1] }, # 03
-  { test: 4, input1: [1, 2, 1, 2, 1, 2, 1, 2], input2: 10, output: [1, 2, 1, 2, 1, 2, 1, 2] }, # 04
-  { test: 5, input1: [2, 4, 6, 8, 10], input2: 2, output: [2, 6, 10] } # 05
+  { test: 1, input: 'var_1__Int', output: '1' }, # 01
+  { test: 2, input: 'q2q-q', output: '2' }, # 02
+  { test: 3, input: '0ss', output: '0' }, # 03
+  { test: 4, input: '_Aas_23', output: '2' }, # 04
+  { test: 5, input: 'a a_933', output: '9' }, # 05
+  { test: 6, input: 'ok0', output: '0' } # 06
 ].freeze
 
 describe 'solution' do
-  it 'passes the supplied tests with 2 inputs and 1 output' do
+  it 'passes the supplied tests with 1 input and 1 output' do
     TEST_I_O.each do |element|
       puts "  Executing test #{element[:test]}..."
-      expect(solution(element[:input1], element[:input2])).to eq(element[:output])
+      expect(solution(element[:input])).to eq(element[:output])
       puts '    Passed.'
     end
   end
