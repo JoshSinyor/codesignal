@@ -3,12 +3,11 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, input: 'var_1__Int', output: '1' }, # 01
-  { test: 2, input: 'q2q-q', output: '2' }, # 02
-  { test: 3, input: '0ss', output: '0' }, # 03
-  { test: 4, input: '_Aas_23', output: '2' }, # 04
-  { test: 5, input: 'a a_933', output: '9' }, # 05
-  { test: 6, input: 'ok0', output: '0' } # 06
+  { test: 1, input: 'cabca', output: 3 }, # 01
+  { test: 2, input: 'aba', output: 2 }, # 02
+  { test: 3, input: 'ccccccccccc', output: 1 }, # 03
+  { test: 4, input: 'bcaba', output: 3 }, # 04
+  { test: 5, input: 'codesignal', output: 10 } # 05
 ].freeze
 
 describe 'solution' do
