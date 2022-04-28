@@ -175,7 +175,7 @@
 #   { test: 19, import: false, input1: , input2: , input3: , input4: , output:  }, # 19
 #   { test: 20, import: false, input1: , input2: , input3: , input4: , output:  } # 20
 # ].freeze
-#
+
 # describe 'solution' do
 #   it 'passes the supplied tests with 4 inputs and 1 output' do
 #     TEST_I_O.each do |element|
@@ -191,6 +191,60 @@
 
 #       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input1], element[:input2], element[:input3], element[:input4])).to eq(element[:output])
+#       puts '    Passed.'
+#     end
+#   end
+# end
+
+# Five inputs, one output
+
+# FILE_NAME = 'test-'
+# FILE_INPUT1 = ''
+# FILE_INPUT2 = ''
+# FILE_INPUT3 = ''
+# FILE_INPUT4 = ''
+# FILE_INPUT5 = ''
+
+# TEST_I_O = [
+#   { test: 1, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 01
+#   { test: 2, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 02
+#   { test: 3, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 03
+#   { test: 4, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 04
+#   { test: 5, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 05
+#   { test: 6, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 06
+#   { test: 7, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 07
+#   { test: 8, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 08
+#   { test: 9, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 09
+#   { test: 10, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 10
+#   { test: 11, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 11
+#   { test: 12, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 12
+#   { test: 13, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 13
+#   { test: 14, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 14
+#   { test: 15, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 15
+#   { test: 16, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 16
+#   { test: 17, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 17
+#   { test: 18, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 18
+#   { test: 19, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 19
+#   { test: 20, import: false, input1: , input2: , input3: , input4: , input5: , output:  } # 20
+# ].freeze
+
+# describe 'solution' do
+#   it 'passes the supplied tests with 5 inputs and 1 output' do
+#     TEST_I_O.each do |element|
+#       case element[:import]
+#       when 'json'
+#         file = JSON.parse(open("docs/#{FILE_NAME}#{element[:test]}.json").read)
+#         element[:input1] = file['input'][FILE_INPUT1]
+#         element[:input2] = file['input'][FILE_INPUT2]
+#         element[:input3] = file['input'][FILE_INPUT3]
+#         element[:input4] = file['input'][FILE_INPUT4]
+#         element[:input4] = file['input'][FILE_INPUT5]
+#         element[:output] = file['output']
+#       end
+
+#       puts "  Executing test #{element[:test]}..."
+#       expect(solution(element[:input1], element[:input2], element[:input3], element[:input4],
+#                       element[:input5])).to eq(element[:output])
 #       puts '    Passed.'
 #     end
 #   end

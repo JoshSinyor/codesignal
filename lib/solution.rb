@@ -1,22 +1,26 @@
 # frozen_string_literal: true
 
-def solution(up_speed, down_speed, desired_height)
-  return 1 if up_speed > desired_height
-
-  (desired_height - down_speed).fdiv(up_speed - down_speed).ceil
+def solution(value1, weight1, value2, weight2, max_weight)
+  if weight1 > max_weight && weight2 > max_weight
+    0
+  elsif weight1 + weight2 <= max_weight
+    value1 + value2
+  elsif weight1 <= max_weight && weight2 > max_weight
+    value1
+  elsif weight2 <= max_weight && weight1 > max_weight
+    value2
+  else
+    [value1, value2].max
+  end
 end
 
-# Alternate looping method
+# Alternate solution
 
-# def solution(up_speed, down_speed, desired_height)
-#   height = 0
-#   days = 0
+# def solution(value1, weight1, value2, weight2, max_weight)
+#   return 0 if weight1 > max_weight && weight2 > max_weight
+#   return value1 + value2 if weight1 + weight2 <= max_weight
+#   return value1 if weight1 <= max_weight && weight2 > max_weight
+#   return value2 if weight1 > max_weight && weight2 <= max_weight
 
-#   loop do
-#     height += up_speed
-#     days += 1
-#     return days if height >= desired_height
-
-#     height -= down_speed
-#   end
+#   [value1, value2].max
 # end
