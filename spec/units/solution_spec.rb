@@ -3,16 +3,17 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, input: 'prettyandsimple@example.com', output: 'example.com' }, # 01
-  { test: 2, input: 'fully-qualified-domain@codesignal.com', output: 'codesignal.com' }, # 02
-  { test: 3, input: '" "@space.com', output: 'space.com' }, # 03
-  { test: 4, input: 'someaddress@yandex.ru', output: 'yandex.ru' }, # 04
-  { test: 5, input: '" "@xample.org', output: 'xample.org' }, # 05
-  { test: 6, input: '"much.more unusual"@yahoo.com', output: 'yahoo.com' }, # 06
-  { test: 7, input: '"very.unusual.@.unusual.com"@usual.com', output: 'usual.com' }, # 07
-  { test: 8, input: 'admin@mailserver2.ru', output: 'mailserver2.ru' }, # 08
-  { test: 9, input: 'example-indeed@strange-example.com', output: 'strange-example.com' }, # 09
-  { test: 10, input: 'very.common@gmail.com', output: 'gmail.com' } # 10
+  { test: 1, input: 'abcdc', output: 'abcdcba' }, # 01
+  { test: 2, input: 'ababab', output: 'abababa' }, # 02
+  { test: 3, input: 'abba', output: 'abba' }, # 03
+  { test: 4, input: 'abaa', output: 'abaaba' }, # 04
+  { test: 5, input: 'aaaaba', output: 'aaaabaaaa' }, # 05
+  { test: 6, input: 'abc', output: 'abcba' }, # 06
+  { test: 7, input: 'kebab', output: 'kebabek' }, # 07
+  { test: 8, input: 'abccba', output: 'abccba' }, # 08
+  { test: 9, input: 'abcabc', output: 'abcabcbacba' }, # 09
+  { test: 10, input: 'cbdbedffcg', output: 'cbdbedffcgcffdebdbc' }, # 10
+  { test: 11, input: 'euotmn', output: 'euotmnmtoue' } # 11
 ].freeze
 
 describe 'solution' do
