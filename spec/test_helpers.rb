@@ -1,8 +1,11 @@
 # frozen_string_literal: true
 
 # Timing tests
+
 # start_time = Time.new
-# puts "Processing Time: #{((Time.now - start_time).to_f * 1000).round(5)} milliseconds."
+#   10000.times do
+#   end
+# puts "Processing time (10,000 repetitions): #{((Time.now - start_time).to_f * 1000).round(5)} milliseconds."
 
 # One input, one output
 
