@@ -1,12 +1,11 @@
 # frozen_string_literal: true
 
 def solution(input_string)
-  letters = ('a'..'z').map { |letter| input_string.count(letter) }
-  letters.reverse == letters.sort
+  input_string.split('@')[-1]
 end
 
-# Alternate solution comparing pairs
+# Alternative using regular expressions
 
 # def solution(input_string)
-#   ('a'..'z').map { |letter| input_string.count(letter) }.each_cons(2).all? { |first, second| first >= second }
+#   input_string.reverse[/^[^@]*/].reverse
 # end

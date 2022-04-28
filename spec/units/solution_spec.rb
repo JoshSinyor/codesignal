@@ -3,16 +3,16 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, input: 'bbbaacdafe', output: true }, # 01
-  { test: 2, input: 'aabbb', output: false }, # 02
-  { test: 3, input: 'bbc', output: false }, # 03
-  { test: 4, input: 'bbbaa', output: false }, # 04
-  { test: 5, input: 'abcdefghijklmnopqrstuvwxyzz', output: false }, # 05
-  { test: 6, input: 'abcdefghijklmnopqrstuvwxyz', output: true }, # 06
-  { test: 7, input: 'abcdefghijklmnopqrstuvwxyzqwertuiopasdfghjklxcvbnm', output: true }, # 07
-  { test: 8, input: 'fyudhrygiuhdfeis', output: false }, # 08
-  { test: 9, input: 'zaa', output: false }, # 09
-  { test: 10, input: 'zyy', output: false } # 10
+  { test: 1, input: 'prettyandsimple@example.com', output: 'example.com' }, # 01
+  { test: 2, input: 'fully-qualified-domain@codesignal.com', output: 'codesignal.com' }, # 02
+  { test: 3, input: '" "@space.com', output: 'space.com' }, # 03
+  { test: 4, input: 'someaddress@yandex.ru', output: 'yandex.ru' }, # 04
+  { test: 5, input: '" "@xample.org', output: 'xample.org' }, # 05
+  { test: 6, input: '"much.more unusual"@yahoo.com', output: 'yahoo.com' }, # 06
+  { test: 7, input: '"very.unusual.@.unusual.com"@usual.com', output: 'usual.com' }, # 07
+  { test: 8, input: 'admin@mailserver2.ru', output: 'mailserver2.ru' }, # 08
+  { test: 9, input: 'example-indeed@strange-example.com', output: 'strange-example.com' }, # 09
+  { test: 10, input: 'very.common@gmail.com', output: 'gmail.com' } # 10
 ].freeze
 
 describe 'solution' do
