@@ -3,16 +3,17 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, import: false, input: '00-1B-63-84-45-E6', output: true }, # 01
-  { test: 2, import: false, input: 'Z1-1B-63-84-45-E6', output: false }, # 02
-  { test: 3, import: false, input: 'not a MAC-48 address', output: false }, # 03
-  { test: 4, import: false, input: 'FF-FF-FF-FF-FF-FF', output: true }, # 04
-  { test: 5, import: false, input: '00-00-00-00-00-00', output: true }, # 05
-  { test: 6, import: false, input: 'G0-00-00-00-00-00', output: false }, # 06
-  { test: 7, import: false, input: '02-03-04-05-06-07-', output: false }, # 07
-  { test: 8, import: false, input: '12-34-56-78-9A-BC', output: true }, # 08
-  { test: 9, import: false, input: 'FF-FF-AB-CD-EA-BC', output: true }, # 09
-  { test: 10, import: false, input: '12-34-56-78-9A-BG', output: false } # 10
+  { test: 1, import: false, input: '0', output: true }, # 01
+  { test: 2, import: false, input: '-', output: false }, # 02
+  { test: 3, import: false, input: 'O', output: false }, # 03
+  { test: 4, import: false, input: '1', output: true }, # 04
+  { test: 5, import: false, input: '2', output: true }, # 05
+  { test: 6, import: false, input: '!', output: false }, # 06
+  { test: 7, import: false, input: '@', output: false }, # 07
+  { test: 8, import: false, input: '+', output: false }, # 08
+  { test: 9, import: false, input: '6', output: true }, # 09
+  { test: 10, import: false, input: '(', output: false }, # 10
+  { test: 11, import: false, input: ')', output: false } # 11
 ].freeze
 
 describe 'solution' do
