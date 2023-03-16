@@ -1,18 +1,27 @@
 # frozen_string_literal: true
 
-def solution(input_string)
-  (0...input_string.size).each do |i|
-    palindrome = input_string + input_string[0...i].reverse
-    return palindrome if palindrome == palindrome.reverse
-  end
+# Elections are in progress!
+#
+# Given an array of the numbers of votes given to each of the candidates so far, and an integer k equal to the number of
+# voters who haven't cast their vote yet, find the number of candidates who still have a chance to win the election.
+#
+# The winner of the election must secure strictly more votes than any other candidate. If two or more candidates receive
+# the same (maximum) number of votes, assume there is no winner at all.
+
+def solution(candidates, uncounted)
+  return candidates.tally.max[1] == 1 ? 1 : 0 if uncounted.zero?
+
+  candidates.tally.select { |n| n + uncounted > candidates.max }.values.sum
 end
 
-# Alternate solution looking for existing palindrome chunk from largest to smallest
-
-# def solution(input_string)
-#   (input_string.size - 1).downto(0).each do |i|
-#     prospect = input_string.reverse[0..i]
-
-#     return input_string + input_string.reverse[i + 1..] if prospect == prospect.reverse
-#   end
+# Alternate solution using each loop.
+#
+# def solution(candidates, uncounted)
+#   return 1 if uncounted.zero? && candidates.tally.max[1] == 1
+#
+#   winners = 0
+#
+#   candidates.each { |candidate| (candidate + uncounted) > candidates.max ? winners += 1 : next }
+#
+#   winners
 # end
