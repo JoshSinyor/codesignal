@@ -3,17 +3,16 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, import: false, input: '0', output: true }, # 01
-  { test: 2, import: false, input: '-', output: false }, # 02
-  { test: 3, import: false, input: 'O', output: false }, # 03
-  { test: 4, import: false, input: '1', output: true }, # 04
-  { test: 5, import: false, input: '2', output: true }, # 05
-  { test: 6, import: false, input: '!', output: false }, # 06
-  { test: 7, import: false, input: '@', output: false }, # 07
-  { test: 8, import: false, input: '+', output: false }, # 08
-  { test: 9, import: false, input: '6', output: true }, # 09
-  { test: 10, import: false, input: '(', output: false }, # 10
-  { test: 11, import: false, input: ')', output: false } # 11
+  { test: 1, import: false, input: 'aabbbc', output: '2a3bc' }, # 01
+  { test: 2, import: false, input: 'abbcabb', output: 'a2bca2b' }, # 02
+  { test: 3, import: false, input: 'abcd', output: 'abcd' }, # 03
+  { test: 4, import: false, input: 'zzzz', output: '4z' }, # 04
+  { test: 5, import: false, input: 'wwwwwwwawwwwwww', output: '7wa7w' }, # 05
+  { test: 6, import: false, input: 'ccccccccccccccc', output: '15c' }, # 06
+  { test: 7, import: false, input: 'qwertyuioplkjhg', output: 'qwertyuioplkjhg' }, # 07
+  { test: 8, import: false, input: 'ssiiggkooo', output: '2s2i2gk3o' }, # 08
+  { test: 9, import: false, input: 'adfaaa', output: 'adf3a' }, # 09
+  { test: 10, import: false, input: 'bbjaadlkjdl', output: '2bj2adlkjdl' } # 10
 ].freeze
 
 describe 'solution' do
