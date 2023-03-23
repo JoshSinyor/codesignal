@@ -3,16 +3,16 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, import: false, input: 'aabbbc', output: '2a3bc' }, # 01
-  { test: 2, import: false, input: 'abbcabb', output: 'a2bca2b' }, # 02
-  { test: 3, import: false, input: 'abcd', output: 'abcd' }, # 03
-  { test: 4, import: false, input: 'zzzz', output: '4z' }, # 04
-  { test: 5, import: false, input: 'wwwwwwwawwwwwww', output: '7wa7w' }, # 05
-  { test: 6, import: false, input: 'ccccccccccccccc', output: '15c' }, # 06
-  { test: 7, import: false, input: 'qwertyuioplkjhg', output: 'qwertyuioplkjhg' }, # 07
-  { test: 8, import: false, input: 'ssiiggkooo', output: '2s2i2gk3o' }, # 08
-  { test: 9, import: false, input: 'adfaaa', output: 'adf3a' }, # 09
-  { test: 10, import: false, input: 'bbjaadlkjdl', output: '2bj2adlkjdl' } # 10
+  { test: 1, import: false, input: 'a1', output: 2 }, # 01
+  { test: 2, import: false, input: 'c2', output: 6 }, # 02
+  { test: 3, import: false, input: 'd4', output: 8 }, # 03
+  { test: 4, import: false, input: 'g6', output: 6 }, # 04
+  { test: 5, import: false, input: 'a3', output: 4 }, # 05
+  { test: 6, import: false, input: 'b7', output: 4 }, # 06
+  { test: 7, import: false, input: 'h8', output: 2 }, # 07
+  { test: 8, import: false, input: 'h6', output: 4 }, # 08
+  { test: 9, import: false, input: 'g8', output: 3 }, # 09
+  { test: 10, import: false, input: 'a5', output: 4 } # 10
 ].freeze
 
 describe 'solution' do

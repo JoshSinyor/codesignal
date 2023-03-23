@@ -1,25 +1,37 @@
 # frozen_string_literal: true
 
-# Given a string, return its encoding defined as follows:
-#  First, the string is divided into the least possible number of disjoint substrings consisting of identical characters
-#    for example, "aabbbc" is divided into ["aa", "bbb", "c"]
-#  Next, each substring with length greater than one is replaced with a concatenation of its length and the repeating
-#  character
-#    for example, substring "bbb" is replaced by "3b"
-#  Finally, all the new strings are concatenated together in the same order and a new string is returned.
+# Given a position of a knight on the standard chessboard, find the number of different moves the knight can perform.
 
-def solution(input_string)
-  input_string.gsub(/(.)\1+/) { |substring| "#{substring.size}#{Regexp.last_match(1)}" }
+# The knight can move to a square that is two squares horizontally and one square vertically, or two squares vertically
+# and one square horizontally away from it. The complete move therefore looks like the letter L.
+
+def solution(square)
+  square = [square[0].ord - 96, square[1].to_i]
+  moves = [-2, -1, 1, 2].permutation(2).reject { |move| move[0].abs == move[1].abs }
+  moves.select { |move| (move[0] + square[0]).between?(1, 8) && (move[1] + square[1]).between?(1, 8) }.length
 end
 
-# Alternative solution using scan method and regex
+# Alternative solution using move array
 
-# def solution(input_string)
-#   output_string = ''
+# def solution(square)
+#   coordinates = [square[0].ord - 96, square[1].to_i]
+#   valid_moves = 0
 
-#   input_string.scan(/(.)(\1*)/).each do |element|
-#     output_string += element[1].empty? ? element[0] : "#{element[1].length + 1}#{element[0]}"
+#   potential_moves = [
+#     [-2, -1],
+#     [-2, 1],
+#     [-1, -2],
+#     [-1, 2],
+#     [1, -2],
+#     [1, 2],
+#     [2, -1],
+#     [2, 1]
+#   ]
+
+#   potential_moves.each do |position|
+#     potential_coordinates = [coordinates[0] + position[0], coordinates[1] + position[1]]
+#     valid_moves += 1 if potential_coordinates[0].between?(1, 8) && potential_coordinates[1].between?(1, 8)
 #   end
 
-#   output_string
+#   valid_moves
 # end
