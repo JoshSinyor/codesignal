@@ -3,16 +3,16 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, import: false, input: 'a1', output: 2 }, # 01
-  { test: 2, import: false, input: 'c2', output: 6 }, # 02
-  { test: 3, import: false, input: 'd4', output: 8 }, # 03
-  { test: 4, import: false, input: 'g6', output: 6 }, # 04
-  { test: 5, import: false, input: 'a3', output: 4 }, # 05
-  { test: 6, import: false, input: 'b7', output: 4 }, # 06
-  { test: 7, import: false, input: 'h8', output: 2 }, # 07
-  { test: 8, import: false, input: 'h6', output: 4 }, # 08
-  { test: 9, import: false, input: 'g8', output: 3 }, # 09
-  { test: 10, import: false, input: 'a5', output: 4 } # 10
+  { test: 1, import: false, input: 152, output: 52 }, # 01
+  { test: 2, import: false, input: 1001, output: 101 }, # 02
+  { test: 3, import: false, input: 10, output: 1 }, # 03
+  { test: 4, import: false, input: 222_219, output: 22_229 }, # 04
+  { test: 5, import: false, input: 109, output: 19 }, # 05
+  { test: 6, import: false, input: 222_250, output: 22_250 }, # 06
+  { test: 7, import: false, input: 44_435, output: 4445 }, # 07
+  { test: 8, import: false, input: 12, output: 2 }, # 08
+  { test: 9, import: false, input: 218_616, output: 28_616 }, # 09
+  { test: 10, import: false, input: 861_452, output: 86_452 } # 10
 ].freeze
 
 describe 'solution' do
