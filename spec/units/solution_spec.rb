@@ -3,16 +3,11 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, import: false, input: 152, output: 52 }, # 01
-  { test: 2, import: false, input: 1001, output: 101 }, # 02
-  { test: 3, import: false, input: 10, output: 1 }, # 03
-  { test: 4, import: false, input: 222_219, output: 22_229 }, # 04
-  { test: 5, import: false, input: 109, output: 19 }, # 05
-  { test: 6, import: false, input: 222_250, output: 22_250 }, # 06
-  { test: 7, import: false, input: 44_435, output: 4445 }, # 07
-  { test: 8, import: false, input: 12, output: 2 }, # 08
-  { test: 9, import: false, input: 218_616, output: 28_616 }, # 09
-  { test: 10, import: false, input: 861_452, output: 86_452 } # 10
+  { test: 1, import: false, input: 'Ready, steady, go!', output: 'steady' }, # 01
+  { test: 2, import: false, input: 'Ready[[[, steady, go!', output: 'steady' }, # 02
+  { test: 3, import: false, input: 'ABCd', output: 'ABCd' }, # 03
+  { test: 4, import: false, input: 'To be or not to be', output: 'not' }, # 04
+  { test: 5, import: false, input: 'You are the best!!!!!!!!!!!! CodeFighter ever!', output: 'CodeFighter' } # 05
 ].freeze
 
 describe 'solution' do
