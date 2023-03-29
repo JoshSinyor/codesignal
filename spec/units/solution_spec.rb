@@ -3,17 +3,14 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, import: false, input: '13:58', output: true }, # 01
-  { test: 2, import: false, input: '25:51', output: false }, # 02
-  { test: 3, import: false, input: '02:76', output: false }, # 03
-  { test: 4, import: false, input: '24:00', output: false }, # 04
-  { test: 5, import: false, input: '02:61', output: false }, # 05
-  { test: 6, import: false, input: '27:00', output: false }, # 06
-  { test: 7, import: false, input: '19:66', output: false }, # 07
-  { test: 8, import: false, input: '12:31', output: true }, # 08
-  { test: 9, import: false, input: '25:73', output: false }, # 09
-  { test: 10, import: false, input: '09:56', output: true }, # 10
-  { test: 11, import: false, input: '03:29', output: true } # 11
+  { test: 1, import: false, input: '2 apples, 12 oranges', output: 14 }, # 01
+  { test: 2, import: false, input: '123450', output: 123_450 }, # 02
+  { test: 3, import: false, input: 'Your payment method is invalid', output: 0 }, # 03
+  { test: 4, import: false, input: 'no digits at all', output: 0 }, # 04
+  { test: 5, import: false, input: 'there are some (12) digits 5566 in this 770 string 239', output: 6587 }, # 05
+  { test: 6, import: false, input: '42+781', output: 823 }, # 06
+  { test: 7, import: false, input: 'abc abc 4 abc 0 abc', output: 4 }, # 07
+  { test: 8, import: false, input: 'abcdefghijklmnopqrstuvwxyz1AbCdEfGhIjKlMnOpqrstuvwxyz23,74 -', output: 98 } # 08
 ].freeze
 
 describe 'solution' do

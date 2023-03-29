@@ -156,8 +156,8 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |                       | Ruby                                                                                              |
         |-----------------------|---------------------------------------------------------------------------------------------------|
         | longestWord           | [3974060](https://github.com/JoshSinyor/codesignal/tree/3974060c1c316565ab29ab0a4bf5a948f28b9b24) |
-        | Valid Time            | Current |
-        | sumUpNumbers          | N/A |
+        | Valid Time            | [fd11293](https://github.com/JoshSinyor/codesignal/tree/fd11293e457a7ac7f06f6420f434a7ae8bfd25f0) | 
+        | sumUpNumbers          | Current |
         | Different Squares     | N/A |
         | digitsProduct         | N/A |
         | File Naming           | N/A |

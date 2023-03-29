@@ -1,26 +1,11 @@
 # frozen_string_literal: true
 
-# Check if the given string is a correct time representation of the 24-hour clock.
+# CodeMaster has just returned from shopping. He scanned the check of the items he bought and gave the resulting string
+# to Ratiorg to figure out the total number of purchased items. Since Ratiorg is a bot he is definitely going to
+# automate it, so he needs a program that sums up all the numbers which appear in the given input.
+
+# Help Ratiorg by writing a function that returns the sum of numbers that appear in the given inputString.
 
 def solution(input_string)
-  hours, minutes = input_string.split(':').map(&:to_i)
-  hours.between?(0, 23) && minutes.between?(0, 59)
+  input_string.scan(/\d+/).map(&:to_i).sum
 end
-
-# Alternative solution using pattern matching:
-
-# def solution(input_string)
-#   case input_string.split(':').map(&:to_i)
-#   in [(0..23), (0..59)]
-#     true
-#   else false
-#   end
-# end
-
-# Alternative solution using Time object:
-
-# def solution(input_string)
-#   Time.parse(input_string) && input_string != '24:00'
-# rescue ArgumentError
-#   false
-# end
