@@ -1,11 +1,23 @@
 # frozen_string_literal: true
 
-# CodeMaster has just returned from shopping. He scanned the check of the items he bought and gave the resulting string
-# to Ratiorg to figure out the total number of purchased items. Since Ratiorg is a bot he is definitely going to
-# automate it, so he needs a program that sums up all the numbers which appear in the given input.
+# Given a rectangular matrix containing only digits, calculate the number of different 2 × 2 squares in it.
 
-# Help Ratiorg by writing a function that returns the sum of numbers that appear in the given inputString.
-
-def solution(input_string)
-  input_string.scan(/\d+/).map(&:to_i).sum
+def solution(input_matrix)
+  input_matrix.each_cons(2).flat_map do |row|
+    row.transpose.each_cons(2).to_a
+  end.uniq.size
 end
+
+# Alternative solution using iterative array:
+
+# def solution(input_matrix)
+#   squares = []
+
+#   (0...input_matrix.size - 1).each do |row|
+#     (0...input_matrix.first.size - 1).each do |col|
+#       squares += [input_matrix[row].slice(col, 2) + input_matrix[row + 1].slice(col, 2)]
+#     end
+#   end
+
+#   squares.uniq.count
+# end

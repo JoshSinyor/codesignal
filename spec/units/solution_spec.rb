@@ -3,14 +3,34 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, import: false, input: '2 apples, 12 oranges', output: 14 }, # 01
-  { test: 2, import: false, input: '123450', output: 123_450 }, # 02
-  { test: 3, import: false, input: 'Your payment method is invalid', output: 0 }, # 03
-  { test: 4, import: false, input: 'no digits at all', output: 0 }, # 04
-  { test: 5, import: false, input: 'there are some (12) digits 5566 in this 770 string 239', output: 6587 }, # 05
-  { test: 6, import: false, input: '42+781', output: 823 }, # 06
-  { test: 7, import: false, input: 'abc abc 4 abc 0 abc', output: 4 }, # 07
-  { test: 8, import: false, input: 'abcdefghijklmnopqrstuvwxyz1AbCdEfGhIjKlMnOpqrstuvwxyz23,74 -', output: 98 } # 08
+  { test: 1, import: false, input: [[1, 2, 1], \
+                                    [2, 2, 2], \
+                                    [2, 2, 2], \
+                                    [1, 2, 3], \
+                                    [2, 2, 1]], output: 6 }, # 01
+  { test: 2, import: false, input: [[9, 9, 9, 9, 9], \
+                                    [9, 9, 9, 9, 9], \
+                                    [9, 9, 9, 9, 9], \
+                                    [9, 9, 9, 9, 9], \
+                                    [9, 9, 9, 9, 9], \
+                                    [9, 9, 9, 9, 9]], output: 1 }, # 02
+  { test: 3, import: false, input: [[3]], output: 0 }, # 03
+  { test: 4, import: false, input: [[3, 4, 5, 6, 7, 8, 9]], output: 0 }, # 04
+  { test: 5, import: false, input: [[3], \
+                                    [4], \
+                                    [5], \
+                                    [6], \
+                                    [7]], output: 0 }, # 05
+  { test: 6, import: false, input: [[2, 5, 3, 4, 3, 1, 3, 2], \
+                                    [4, 5, 4, 1, 2, 4, 1, 3], \
+                                    [1, 1, 2, 1, 4, 1, 1, 5], \
+                                    [1, 3, 4, 2, 3, 4, 2, 4], \
+                                    [1, 5, 5, 2, 1, 3, 1, 1], \
+                                    [1, 2, 3, 3, 5, 1, 2, 4], \
+                                    [3, 1, 4, 4, 4, 1, 5, 5], \
+                                    [5, 1, 3, 3, 1, 5, 3, 5], \
+                                    [5, 4, 4, 3, 5, 4, 4, 4]], output: 54 }, # 06
+  { test: 7, import: false, input: [[1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 9, 9, 9, 2, 3, 9]], output: 0 } # 07
 ].freeze
 
 describe 'solution' do
