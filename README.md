@@ -158,8 +158,8 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | longestWord           | [3974060](https://github.com/JoshSinyor/codesignal/tree/3974060c1c316565ab29ab0a4bf5a948f28b9b24) |
         | Valid Time            | [fd11293](https://github.com/JoshSinyor/codesignal/tree/fd11293e457a7ac7f06f6420f434a7ae8bfd25f0) | 
         | sumUpNumbers          | [7d79f15](https://github.com/JoshSinyor/codesignal/tree/7d79f15fbdd6f1d89db8fe48e958dde3dfa362f6) |
-        | Different Squares     | Current |
-        | digitsProduct         | N/A |
+        | Different Squares     | [ffe5fe9](https://github.com/JoshSinyor/codesignal/tree/ffe5fe9e41fa967b98c3ab27dd3fde16f853800f) |
+        | digitsProduct         | Current |
         | File Naming           | N/A |
         | messageFromBinaryCode | N/A |
         | spiralNumbers         | N/A |
