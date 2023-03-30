@@ -3,34 +3,15 @@
 require 'solution'
 
 TEST_I_O = [
-  { test: 1, import: false, input: [[1, 2, 1], \
-                                    [2, 2, 2], \
-                                    [2, 2, 2], \
-                                    [1, 2, 3], \
-                                    [2, 2, 1]], output: 6 }, # 01
-  { test: 2, import: false, input: [[9, 9, 9, 9, 9], \
-                                    [9, 9, 9, 9, 9], \
-                                    [9, 9, 9, 9, 9], \
-                                    [9, 9, 9, 9, 9], \
-                                    [9, 9, 9, 9, 9], \
-                                    [9, 9, 9, 9, 9]], output: 1 }, # 02
-  { test: 3, import: false, input: [[3]], output: 0 }, # 03
-  { test: 4, import: false, input: [[3, 4, 5, 6, 7, 8, 9]], output: 0 }, # 04
-  { test: 5, import: false, input: [[3], \
-                                    [4], \
-                                    [5], \
-                                    [6], \
-                                    [7]], output: 0 }, # 05
-  { test: 6, import: false, input: [[2, 5, 3, 4, 3, 1, 3, 2], \
-                                    [4, 5, 4, 1, 2, 4, 1, 3], \
-                                    [1, 1, 2, 1, 4, 1, 1, 5], \
-                                    [1, 3, 4, 2, 3, 4, 2, 4], \
-                                    [1, 5, 5, 2, 1, 3, 1, 1], \
-                                    [1, 2, 3, 3, 5, 1, 2, 4], \
-                                    [3, 1, 4, 4, 4, 1, 5, 5], \
-                                    [5, 1, 3, 3, 1, 5, 3, 5], \
-                                    [5, 4, 4, 3, 5, 4, 4, 4]], output: 54 }, # 06
-  { test: 7, import: false, input: [[1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 9, 9, 9, 2, 3, 9]], output: 0 } # 07
+  { test: 1, import: false, input: 12, output: 26 }, # 01
+  { test: 2, import: false, input: 19, output: -1 }, # 02
+  { test: 3, import: false, input: 450, output: 2559 }, # 03
+  { test: 4, import: false, input: 0, output: 10 }, # 04
+  { test: 5, import: false, input: 13, output: -1 }, # 05
+  { test: 6, import: false, input: 1, output: 1 }, # 06
+  { test: 7, import: false, input: 243, output: 399 }, # 07
+  { test: 8, import: false, input: 576, output: 889 }, # 08
+  { test: 9, import: false, input: 360, output: 589 } # 09
 ].freeze
 
 describe 'solution' do

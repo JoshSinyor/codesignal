@@ -1,23 +1,20 @@
 # frozen_string_literal: true
 
-# Given a rectangular matrix containing only digits, calculate the number of different 2 × 2 squares in it.
+# Given an integer product, find the smallest positive (i.e. greater than 0) integer the product of whose digits is
+# equal to product. If there is no such integer, return -1 instead.
 
-def solution(input_matrix)
-  input_matrix.each_cons(2).flat_map do |row|
-    row.transpose.each_cons(2).to_a
-  end.uniq.size
+def solution(product)
+  return 10 if product.zero?
+  return 1 if product == 1
+
+  factors = []
+
+  (2..9).reverse_each do |factor|
+    while (product % factor).zero?
+      factors << factor
+      product /= factor
+    end
+  end
+
+  product > 1 ? - 1 : factors.sort.join.to_i
 end
-
-# Alternative solution using iterative array:
-
-# def solution(input_matrix)
-#   squares = []
-
-#   (0...input_matrix.size - 1).each do |row|
-#     (0...input_matrix.first.size - 1).each do |col|
-#       squares += [input_matrix[row].slice(col, 2) + input_matrix[row + 1].slice(col, 2)]
-#     end
-#   end
-
-#   squares.uniq.count
-# end
