@@ -159,8 +159,8 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | Valid Time            | [fd11293](https://github.com/JoshSinyor/codesignal/tree/fd11293e457a7ac7f06f6420f434a7ae8bfd25f0) | 
         | sumUpNumbers          | [7d79f15](https://github.com/JoshSinyor/codesignal/tree/7d79f15fbdd6f1d89db8fe48e958dde3dfa362f6) |
         | Different Squares     | [ffe5fe9](https://github.com/JoshSinyor/codesignal/tree/ffe5fe9e41fa967b98c3ab27dd3fde16f853800f) |
-        | digitsProduct         | Current |
-        | File Naming           | N/A |
+        | digitsProduct         | [b4a8489](https://github.com/JoshSinyor/codesignal/tree/b4a84899fd3b33ae354e8a34fae52c043d00927c) |
+        | File Naming           | Current |
         | messageFromBinaryCode | N/A |
         | spiralNumbers         | N/A |
         | Sudoku                | N/A |
