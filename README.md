@@ -161,8 +161,8 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | Different Squares     | [ffe5fe9](https://github.com/JoshSinyor/codesignal/tree/ffe5fe9e41fa967b98c3ab27dd3fde16f853800f) |
         | digitsProduct         | [b4a8489](https://github.com/JoshSinyor/codesignal/tree/b4a84899fd3b33ae354e8a34fae52c043d00927c) |
         | File Naming           | [5e34179](https://github.com/JoshSinyor/codesignal/tree/5e34179d303e2e1a87f7e2574ea923c547d63515) |
-        | messageFromBinaryCode | Current |
-        | spiralNumbers         | N/A |
+        | messageFromBinaryCode | [dfa4ac4](https://github.com/JoshSinyor/codesignal/tree/dfa4ac47a78ceb6645d61c6414f6c8ffd2c3a12e) |
+        | spiralNumbers         | Current |
         | Sudoku                | N/A |
 
 ---
