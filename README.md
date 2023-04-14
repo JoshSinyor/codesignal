@@ -162,8 +162,8 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | digitsProduct         | [b4a8489](https://github.com/JoshSinyor/codesignal/tree/b4a84899fd3b33ae354e8a34fae52c043d00927c) |
         | File Naming           | [5e34179](https://github.com/JoshSinyor/codesignal/tree/5e34179d303e2e1a87f7e2574ea923c547d63515) |
         | messageFromBinaryCode | [dfa4ac4](https://github.com/JoshSinyor/codesignal/tree/dfa4ac47a78ceb6645d61c6414f6c8ffd2c3a12e) |
-        | spiralNumbers         | Current |
-        | Sudoku                | N/A |
+        | spiralNumbers         | [ec89937](https://github.com/JoshSinyor/codesignal/tree/ec899370af42d8403f0af40e486378b480d8d8e6) |
+        | Sudoku                | Current |
 
 ---
 
