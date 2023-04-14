@@ -1,49 +1,24 @@
 # frozen_string_literal: true
 
-# Construct a square matrix with a size N × N containing integers from 1 to N * N in a spiral order, starting from
-# top-left and in clockwise direction.
+# Sudoku is a number-placement puzzle. The objective is to fill a 9 × 9 grid with digits so that each column, each row,
+# and each of the nine 3 × 3 sub-grids that compose the grid contains all of the digits from 1 to 9.
 
-def solution(num)
-  num = num**2 + 1
-  arr = []
-  arr = [arr.map { num -= 1 }] + arr.transpose.reverse while num > 1
-  arr.map!(&:reverse)
+# This algorithm should check if the given grid of numbers represents a correct solution to Sudoku.
+
+def solution(grid)
+  grid.all? { |line| line.uniq.length == 9 } &&
+    grid.transpose.all? { |line| line.uniq.length == 9 } &&
+    grid.each_slice(3).all? do |row|
+      row.transpose.each_slice(3).all? { |square| square.flatten.uniq.length == 9 }
+    end
 end
 
-# Alternate solution using x and y coordinates.
+# Alternate solution using flat_map method.
 
-# def solution(num)
-#   integers = (1..num**2).to_a.reverse
-#   matrix = Array.new(num).map { Array.new(num, []) }
+# def solution(grid)
+#   return false if grid.any? { |line| line.uniq.length != 9 } || grid.transpose.any? { |line| line.uniq.length != 9 }
 
-#   xrng = (0...num)
-#   yrng = (0...num)
-#   x = 0
-#   y = 0
-
-#   until integers.empty?
-#     if x == xrng.min && y == yrng.min
-#       xrng.each { |icol| matrix[y][icol] = [integers.pop] }
-#       x = xrng.max
-#       y += 1
-#       yrng = y..yrng.max
-#     elsif x == xrng.max && y == yrng.min
-#       yrng.each { |irow| matrix[irow][x] = [integers.pop] }
-#       x -= 1
-#       y = yrng.max
-#       xrng = xrng.min..x
-#     elsif x == xrng.max && y == yrng.max
-#       xrng.reverse_each { |icol| matrix[y][icol] = integers.pop }
-#       x = xrng.min
-#       y -= 1
-#       yrng = yrng.min..y
-#     elsif x == xrng.min && y == yrng.max
-#       yrng.reverse_each { |irow| matrix[irow][x] = integers.pop }
-#       x += 1
-#       y = yrng.min
-#       xrng = x..xrng.max
-#     end
-#   end
-
-#   matrix.map(&:flatten)
+#   grid.each_slice(3).flat_map do |row|
+#     row.transpose.each_slice(3).to_a.map(&:flatten)
+#   end.none? { |square| square.uniq.length != 9 }
 # end
