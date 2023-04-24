@@ -92,7 +92,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |                     | Ruby                                              |
         |---------------------|---------------------------------------------------|
         | Array Replace       | [Ruby](archive/ruby/lib/array_replace.rb)         |
-        | evenDigitsOnly      |                                                   |
+        | evenDigitsOnly      | [Ruby](archive/ruby/lib/even_digits_only.rb)      |
         | variableName        |                                                   |
         | alphabeticShift     |                                                   |
         | chessBoardCellColor |                                                   |

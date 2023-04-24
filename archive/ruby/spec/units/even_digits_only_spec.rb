@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'even_digits_only'
 
 EVEN_DIGITS_ONLY_TEST_I_O = [
   { test: 1, input: 248_622, output: true }, # 01
