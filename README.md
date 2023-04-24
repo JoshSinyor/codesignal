@@ -38,7 +38,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |                 | Ruby                                          |
         |-----------------|-----------------------------------------------|
         | add             | [Ruby](archive/ruby/lib/add.rb)               |
-        | centuryFromYear |                                               |
+        | centuryFromYear | [Ruby](archive/ruby/lib/century_from_year.rb) |
         | checkPalindrome |                                               |
 
   2. <details>

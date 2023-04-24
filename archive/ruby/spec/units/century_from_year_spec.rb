@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'century_from_year'
 
 CENTURY_FROM_YEAR_TEST_I_O = [
   { test: 1, input: 1905, output: 20 }, # 01
