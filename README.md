@@ -94,7 +94,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | Array Replace       | [Ruby](archive/ruby/lib/array_replace.rb)         |
         | evenDigitsOnly      | [Ruby](archive/ruby/lib/even_digits_only.rb)      |
         | variableName        | [Ruby](archive/ruby/lib/variable_name.rb)         |
-        | alphabeticShift     |                                                   |
+        | alphabeticShift     | [Ruby](archive/ruby/lib/alphabetic_shift.rb)      |
         | chessBoardCellColor |                                                   |
 
   7. <details>

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'alphabetic_shift'
 
 ALPHABETIC_SHIFT_TEST_I_O = [
   { test: 1, input: 'crazy', output: 'dsbaz' }, # 01
