@@ -80,7 +80,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |                                | Ruby                                                          |
         |--------------------------------|---------------------------------------------------------------|
         | areEquallyStrong               | [Ruby](archive/ruby/lib/are_equally_strong.rb)                |
-        | arrayMaximalAdjacentDifference |                                                               |
+        | arrayMaximalAdjacentDifference | [Ruby](archive/ruby/lib/array_maximal_adjacent_difference.rb) |
         | isIPv4Address                  |                                                               |
         | avoidObstacles                 |                                                               |
         | Box Blur                       |                                                               |

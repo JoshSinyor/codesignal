@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'array_maximal_adjacent_difference'
 
 ARRAY_MAXIMAL_ADJACENT_DIFFERENT_TEST_I_O = [
   { test: 1, input: [2, 4, 1, 0], output: 3 }, # 01
