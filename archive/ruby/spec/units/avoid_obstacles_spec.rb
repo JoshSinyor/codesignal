@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'avoid_obstacles'
 
 AVOID_OBSTACLES_TEST_I_O = [
   { test: 1, input: [5, 3, 6, 7, 9], output: 4 }, # 01
