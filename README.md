@@ -122,7 +122,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                     | Ruby                                              |
         |---------------------|---------------------------------------------------|
-        | growingPlant        |                                                   |
+        | growingPlant        | [Ruby](archive/ruby/lib/growing_plant.rb)         |
         | KnapsackLight       |                                                   |
         | longestDigitsPrefix |                                                   |
         | digitDegree         |                                                   |

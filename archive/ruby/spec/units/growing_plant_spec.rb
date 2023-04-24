@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'growing_plant'
 
 GROWING_PLANT_TEST_I_O = [
   { test: 1, input1: 100, input2: 10, input3: 910, output: 10 }, # 01
