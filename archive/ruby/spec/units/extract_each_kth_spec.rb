@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'extract_each_kth'
 
 EXTRACT_EACH_KTH_TEST_I_O = [
   { test: 1, input1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], input2: 3, output: [1, 2, 4, 5, 7, 8, 10] }, # 01
