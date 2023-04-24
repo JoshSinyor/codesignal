@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'valid_time'
 
 VALID_TIME_TEST_I_O = [
   { test: 1, input: '13:58', output: true }, # 01
