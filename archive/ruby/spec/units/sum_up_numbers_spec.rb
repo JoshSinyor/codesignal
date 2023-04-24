@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'sum_up_numbers'
 
 SUM_UP_NUMBERS_TEST_I_O = [
   { test: 1, input: '2 apples, 12 oranges', output: 14 }, # 01
