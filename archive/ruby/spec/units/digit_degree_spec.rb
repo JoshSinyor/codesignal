@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'digit_degree'
 
 DIGIT_DEGREE_TEST_I_O = [
   { test: 1, input: 5, output: 0 }, # 01
