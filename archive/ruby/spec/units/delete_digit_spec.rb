@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'delete_digit'
 
 DELETE_DIGIT_TEST_I_O = [
   { test: 1, input: 152, output: 52 }, # 01

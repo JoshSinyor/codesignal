@@ -147,7 +147,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | isDigit      | [Ruby](archive/ruby/lib/is_digit.rb)      |
         | lineEncoding | [Ruby](archive/ruby/lib/line_encoding.rb) |
         | chessKnight  | [Ruby](archive/ruby/lib/chess_knight.rb)  |
-        | deleteDigit  |                                           |
+        | deleteDigit  | [Ruby](archive/ruby/lib/delete_digit.rb)  |
 
   12. <details>
         <summary>Land of Logic</summary>
