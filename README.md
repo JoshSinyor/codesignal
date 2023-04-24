@@ -91,7 +91,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                     | Ruby                                              |
         |---------------------|---------------------------------------------------|
-        | Array Replace       |                                                   |
+        | Array Replace       | [Ruby](archive/ruby/lib/array_replace.rb)         |
         | evenDigitsOnly      |                                                   |
         | variableName        |                                                   |
         | alphabeticShift     |                                                   |

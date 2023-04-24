@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'array_replace'
 
 ARRAY_REPLACE_TEST_I_O = [
   { test: 1, input1: [1, 2, 1], input2: 1, input3: 3, output: [3, 2, 3] }, # 01
