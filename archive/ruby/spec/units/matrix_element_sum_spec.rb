@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'matrix_element_sum'
 
 MATRIX_ELEMENT_SUM_TEST_I_O = [
   { test: 1, input: [[0, 1, 1, 2],
