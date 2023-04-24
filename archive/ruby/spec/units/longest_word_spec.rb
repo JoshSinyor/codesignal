@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'longest_word'
 
 LONGEST_WORD_TEST_I_O = [
   { test: 1, input: 'Ready, steady, go!', output: 'steady' }, # 01

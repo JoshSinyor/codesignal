@@ -154,7 +154,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                       | Ruby                                                 |
         |-----------------------|------------------------------------------------------|
-        | longestWord           |                                                      |
+        | longestWord           | [Ruby](archive/ruby/lib/longest_word.rb)             |
         | Valid Time            |                                                      |
         | sumUpNumbers          |                                                      |
         | Different Squares     |                                                      |
