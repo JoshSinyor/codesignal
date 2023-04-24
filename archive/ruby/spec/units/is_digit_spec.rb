@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'is_digit'
 
 IS_DIGIT_TEST_I_O = [
   { test: 1, input: '0', output: true }, # 01
