@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'array_change'
 
 ARRAY_CHANGE_TEST_I_O = [
   { test: 1, input: [1, 1, 1], output: 3 }, # 01

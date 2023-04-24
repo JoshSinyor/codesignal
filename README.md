@@ -71,7 +71,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | alternatingSums       | [Ruby](archive/ruby/lib/alternating_sums.rb)       |
         | Add Border            | [Ruby](archive/ruby/lib/add_border.rb)             |
         | Are Similar?          | [Ruby](archive/ruby/lib/are_similar.rb)            |
-        | arrayChange           |                                                    |
+        | arrayChange           | [Ruby](archive/ruby/lib/array_change.rb)           |
         | palindromeRearranging |                                                    |
 
   5. <details>
