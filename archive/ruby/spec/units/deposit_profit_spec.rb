@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'deposit_profit'
 
 DEPOSIT_PROFIT_TEST_I_O = [
   { test: 1, input1: 100, input2: 20, input3: 170, output: 3 }, # 01
