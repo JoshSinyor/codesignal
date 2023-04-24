@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'shape_area'
 
 SHAPE_AREA_TEST_I_O = [
   { test: 1, input: 2, output: 5 }, # 01
