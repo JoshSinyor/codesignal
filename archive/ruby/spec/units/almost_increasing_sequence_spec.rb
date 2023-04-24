@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'almost_increasing_sequence'
 
 ALMOST_INCREASING_SEQUENCE_TEST_I_O = [
   { test: 1, input: [1, 3, 2, 1], output: false }, # 01
