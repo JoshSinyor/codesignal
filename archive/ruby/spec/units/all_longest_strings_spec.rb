@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'all_longest_strings'
 
 ALL_LONGEST_STRINGS_TEST_I_O = [
   { test: 1, input: %w[aba aa ad vcd aba], output: %w[aba vcd aba] }, # 01

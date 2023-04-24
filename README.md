@@ -57,7 +57,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                      | Ruby                                               |
         |----------------------|----------------------------------------------------|
-        | All Longest Strings  |                                                    |
+        | All Longest Strings  | [Ruby](archive/ruby/lib/all_longest_strings.rb)    |
         | commonCharacterCount |                                                    |
         | isLucky              |                                                    |
         | Sort by Height       |                                                    |
