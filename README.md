@@ -46,7 +46,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                          | Ruby                                                   |
         |--------------------------|--------------------------------------------------------|
-        | adjacentElementsProduct  |                                                        |
+        | adjacentElementsProduct  | [Ruby](archive/ruby/lib/adjacent_elements_product.rb)  |
         | shapeArea                |                                                        |
         | Make Array Consecutive 2 |                                                        |
         | almostIncreasingSequence |                                                        |

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'adjacent_elements_product'
 
 ADJACENT_ELEMENTS_PRODUCT_TEST_I_O = [
   { test: 1, input: [3, 6, -2, -5, 7, 3], output: 21 }, # 01
