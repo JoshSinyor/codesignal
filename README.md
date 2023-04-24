@@ -105,7 +105,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | Circle of Numbers             | [Ruby](archive/ruby/lib/circle_of_numbers.rb)                   |
         | depositProfit                 | [Ruby](archive/ruby/lib/deposit_profit.rb)                      |
         | absoluteValuesSumMinimization | [Ruby](archive/ruby/lib/absolute_values_string_minimization.rb) |
-        | stringsRearrangement          |                                                                 |
+        | stringsRearrangement          | [Ruby](archive/ruby/lib/strings_rearrangement.rb)               |
 
   8. <details>
         <summary>Diving Deeper</summary>

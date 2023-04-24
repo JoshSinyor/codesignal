@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'strings_rearrangement'
 
 STRINGS_REARRANGEMENT_TEST_I_O = [
   { test: 1, input: %w[aba bbb bab], output: false }, # 01
