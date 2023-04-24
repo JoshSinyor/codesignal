@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'chessboard_cell_color'
 
 CHESSBOARD_CELL_COLOR_TEST_I_O = [
   { test: 1, input1: 'A1', input2: 'C3', output: true }, # 01
