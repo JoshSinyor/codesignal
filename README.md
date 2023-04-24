@@ -133,7 +133,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                   | Ruby                                            |
         |-------------------|-------------------------------------------------|
-        | isBeautifulString |                                                 |
+        | isBeautifulString | [Ruby](archive/ruby/lib/is_beautiful_string.rb) |
         | Find Email Domain |                                                 |
         | buildPalindrome   |                                                 |
         | Elections Winners |                                                 |

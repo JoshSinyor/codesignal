@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'is_beautiful_string'
 
 IS_BEAUTIFUL_STRING_TEST_I_O = [
   { test: 1, input: 'bbbaacdafe', output: true }, # 01
