@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'file_naming'
 
 FILE_NAMING_TEST_I_O = [
   { test: 1, input: ['doc',
