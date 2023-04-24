@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'is_lucky'
 
 IS_LUCKY_TEST_I_O = [
   { test: 1, input: 1230, output: true }, # 01

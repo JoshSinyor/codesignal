@@ -59,7 +59,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |----------------------|----------------------------------------------------|
         | All Longest Strings  | [Ruby](archive/ruby/lib/all_longest_strings.rb)    |
         | commonCharacterCount | [Ruby](archive/ruby/lib/common_character_count.rb) |
-        | isLucky              |                                                    |
+        | isLucky              | [Ruby](archive/ruby/lib/is_lucky.rb)               |
         | Sort by Height       |                                                    |
         | reverseInParentheses |                                                    |
 
