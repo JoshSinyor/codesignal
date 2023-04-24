@@ -9,3 +9,4 @@
 
 # Ignore local cache of SimpleCov
 /coverage
+/archive/ruby/coverage

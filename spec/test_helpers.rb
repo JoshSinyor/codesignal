@@ -1,16 +1,45 @@
 # frozen_string_literal: true
 
-# Timing tests
+# # # Timing tests # # #
+# Inside describe 'n' do
 
-# start_time = Time.new
-#   10000.times do
+# it 'passes the supplied tests with n inputs and n output' do
+#   start_time = Time.new
+#   repetitions = 1
+#   repetitions.times do
+#     TEST_I_O.each do |element|
+#       [...]
+#     end
 #   end
-# puts "Processing time (10,000 repetitions): #{((Time.now - start_time).to_f * 1000).round(5)} milliseconds."
 
-# One input, one output
+#   repetitions = repetitions.to_s.reverse.scan(/\d{1,3}/).join(',').reverse
+#   processing_time = ((Time.now - start_time).to_f * 1000).round(5)
+#   puts "  Processing time (#{repetitions} repetitions): #{processing_time} milliseconds."
+# end
+
+# # # JSon input # # #
+# Inside solution_spec.rb
 
 # FILE_NAME = 'test-'
-# FILE_INPUT = ''
+# FILE_INPUT1 = ''
+# FILE_INPUT2 = ''
+# FILE_INPUT3 = ''
+# FILE_INPUT4 = ''
+# FILE_INPUT5 = ''
+
+# Inside TEST_I_O.each do |element|
+
+#       case element[:import]
+#       when 'json'
+#         file = JSON.parse(open("docs/#{FILE_NAME}#{element[:test]}.json").read)
+#         element[:input1] = file['input'][FILE_INPUT1]
+#         element[:input2] = file['input'][FILE_INPUT2]
+#         element[:input3] = file['input'][FILE_INPUT3]
+#         element[:input4] = file['input'][FILE_INPUT4]
+#         element[:input4] = file['input'][FILE_INPUT5]
+#       end
+
+# One input, one output
 
 # TEST_I_O = [
 #   { test: 1, import: false, input: , output:  }, # 01
@@ -38,13 +67,6 @@
 # describe 'solution' do
 #   it 'passes the supplied tests with 1 input and 1 output' do
 #     TEST_I_O.each do |element|
-#       case element[:import]
-#       when 'json'
-#         file = JSON.parse(open("docs/#{FILE_NAME}#{element[:test]}.json").read)
-#         element[:input1] = file['input'][FILE_INPUT]
-#         element[:output] = file['output']
-#       end
-
 #       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input])).to eq(element[:output])
 #       puts '    Passed.'
@@ -53,10 +75,6 @@
 # end
 
 # Two inputs, one output
-
-# FILE_NAME = 'test-'
-# FILE_INPUT1 = ''
-# FILE_INPUT2 = ''
 
 # TEST_I_O = [
 #   { test: 1, import: false, input1: , input2: , output:  }, # 01
@@ -84,14 +102,6 @@
 # describe 'solution' do
 #   it 'passes the supplied tests with 2 inputs and 1 output' do
 #     TEST_I_O.each do |element|
-#       case element[:import]
-#       when 'json'
-#         file = JSON.parse(open("docs/#{FILE_NAME}#{element[:test]}.json").read)
-#         element[:input1] = file['input'][FILE_INPUT1]
-#         element[:input2] = file['input'][FILE_INPUT2]
-#         element[:output] = file['output']
-#       end
-
 #       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input1], element[:input2])).to eq(element[:output])
 #       puts '    Passed.'
@@ -100,11 +110,6 @@
 # end
 
 # Three inputs, one output
-
-# FILE_NAME = 'test-'
-# FILE_INPUT1 = ''
-# FILE_INPUT2 = ''
-# FILE_INPUT3 = ''
 
 # TEST_I_O = [
 #   { test: 1, import: false, input1: , input2: , input3: , output:  }, # 01
@@ -132,15 +137,6 @@
 # describe 'solution' do
 #   it 'passes the supplied tests with 3 inputs and 1 output' do
 #     TEST_I_O.each do |element|
-#       case element[:import]
-#       when 'json'
-#         file = JSON.parse(open("docs/#{FILE_NAME}#{element[:test]}.json").read)
-#         element[:input1] = file['input'][FILE_INPUT1]
-#         element[:input2] = file['input'][FILE_INPUT2]
-#         element[:input3] = file['input'][FILE_INPUT3]
-#         element[:output] = file['output']
-#       end
-
 #       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input1], element[:input2], element[:input3])).to eq(element[:output])
 #       puts '    Passed.'
@@ -149,12 +145,6 @@
 # end
 
 # Four inputs, one output
-
-# FILE_NAME = 'test-'
-# FILE_INPUT1 = ''
-# FILE_INPUT2 = ''
-# FILE_INPUT3 = ''
-# FILE_INPUT4 = ''
 
 # TEST_I_O = [
 #   { test: 1, import: false, input1: , input2: , input3: , input4: , output:  }, # 01
@@ -183,15 +173,6 @@
 #   it 'passes the supplied tests with 4 inputs and 1 output' do
 #     TEST_I_O.each do |element|
 #       case element[:import]
-#       when 'json'
-#         file = JSON.parse(open("docs/#{FILE_NAME}#{element[:test]}.json").read)
-#         element[:input1] = file['input'][FILE_INPUT1]
-#         element[:input2] = file['input'][FILE_INPUT2]
-#         element[:input3] = file['input'][FILE_INPUT3]
-#         element[:input4] = file['input'][FILE_INPUT4]
-#         element[:output] = file['output']
-#       end
-
 #       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input1], element[:input2], element[:input3], element[:input4])).to eq(element[:output])
 #       puts '    Passed.'
@@ -200,13 +181,6 @@
 # end
 
 # Five inputs, one output
-
-# FILE_NAME = 'test-'
-# FILE_INPUT1 = ''
-# FILE_INPUT2 = ''
-# FILE_INPUT3 = ''
-# FILE_INPUT4 = ''
-# FILE_INPUT5 = ''
 
 # TEST_I_O = [
 #   { test: 1, import: false, input1: , input2: , input3: , input4: , input5: , output:  }, # 01
@@ -234,17 +208,6 @@
 # describe 'solution' do
 #   it 'passes the supplied tests with 5 inputs and 1 output' do
 #     TEST_I_O.each do |element|
-#       case element[:import]
-#       when 'json'
-#         file = JSON.parse(open("docs/#{FILE_NAME}#{element[:test]}.json").read)
-#         element[:input1] = file['input'][FILE_INPUT1]
-#         element[:input2] = file['input'][FILE_INPUT2]
-#         element[:input3] = file['input'][FILE_INPUT3]
-#         element[:input4] = file['input'][FILE_INPUT4]
-#         element[:input4] = file['input'][FILE_INPUT5]
-#         element[:output] = file['output']
-#       end
-
 #       puts "  Executing test #{element[:test]}..."
 #       expect(solution(element[:input1], element[:input2], element[:input3], element[:input4],
 #                       element[:input5])).to eq(element[:output])

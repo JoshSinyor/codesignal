@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'add'
 
 ADD_TEST_I_O = [
   { test: 1, input1: 1, input2: 2, output: 3 }, # 01
