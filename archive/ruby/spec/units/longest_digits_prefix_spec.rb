@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'longest_digits_prefix'
 
 LONGEST_DIGITS_PREFIX_TEST_I_O = [
   { test: 1, input: '123aa1', output: '123' }, # 01

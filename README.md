@@ -124,7 +124,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |---------------------|---------------------------------------------------|
         | growingPlant        | [Ruby](archive/ruby/lib/growing_plant.rb)         |
         | KnapsackLight       | [Ruby](archive/ruby/lib/knapsack_light.rb)        |
-        | longestDigitsPrefix |                                                   |
+        | longestDigitsPrefix | [Ruby](archive/ruby/lib/longest_digits_prefix.rb) |
         | digitDegree         |                                                   |
         | Bishop and Pawn     |                                                   |
 
