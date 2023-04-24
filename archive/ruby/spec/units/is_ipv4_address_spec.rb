@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'is_ipv4_address'
 
 IS_IPV4_ADDRESS_TEST_I_O = [
   { test: 1, input: '172.16.254.1', output: true }, # 01

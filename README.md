@@ -81,7 +81,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |--------------------------------|---------------------------------------------------------------|
         | areEquallyStrong               | [Ruby](archive/ruby/lib/are_equally_strong.rb)                |
         | arrayMaximalAdjacentDifference | [Ruby](archive/ruby/lib/array_maximal_adjacent_difference.rb) |
-        | isIPv4Address                  |                                                               |
+        | isIPv4Address                  | [Ruby](archive/ruby/lib/is_ipv4_address.rb)                   |
         | avoidObstacles                 |                                                               |
         | Box Blur                       |                                                               |
         | Minesweeper                    |                                                               |
