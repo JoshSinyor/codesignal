@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'spiral_numbers'
 
 SPIRAL_NUMBERS_TEST_I_O = [
   { test: 1, input: 3, output: [[1, 2, 3],
