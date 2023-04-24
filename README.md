@@ -61,7 +61,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | commonCharacterCount | [Ruby](archive/ruby/lib/common_character_count.rb) |
         | isLucky              | [Ruby](archive/ruby/lib/is_lucky.rb)               |
         | Sort by Height       | [Ruby](archive/ruby/lib/sort_by_height.rb)         |
-        | reverseInParentheses |                                                    |
+        | reverseInParentheses | [Ruby](archive/ruby/lib/reverse_in_parentheses.rb) |
 
   4. <details>
         <summary>Exploring the Waters</summary>

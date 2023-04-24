@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'reverse_in_parentheses'
 
 REVERSE_IN_PARENTHESES_TEST_I_O = [
   { test: 1, input: '(bar)', output: 'rab' }, # 01
