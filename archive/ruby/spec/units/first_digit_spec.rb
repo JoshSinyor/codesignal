@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'first_digit'
 
 FIRST_DIGIT_TEST_I_O = [
   { test: 1, input: 'var_1__Int', output: '1' }, # 01

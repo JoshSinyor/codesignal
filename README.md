@@ -113,7 +113,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |                        | Ruby                                                  |
         |------------------------|-------------------------------------------------------|
         | extractEachKth         | [Ruby](archive/ruby/lib/extract_each_kth.rb)          |
-        | firstDigit             |                                                       |
+        | firstDigit             | [Ruby](archive/ruby/lib/first_digit.rb)               |
         | differentSymbolsNaive  |                                                       |
         | arrayMaxConsecutiveSum |                                                       |
 
