@@ -160,7 +160,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | Different Squares     | [Ruby](archive/ruby/lib/different_squares.rb)        |
         | digitsProduct         | [Ruby](archive/ruby/lib/digits_product.rb)           |
         | File Naming           | [Ruby](archive/ruby/lib/file_naming.rb)              |
-        | messageFromBinaryCode |                                                      |
+        | messageFromBinaryCode | [Ruby](archive/ruby/lib/message_from_binary_code.rb) |
         | spiralNumbers         |                                                      |
         | Sudoku                |                                                      |
 

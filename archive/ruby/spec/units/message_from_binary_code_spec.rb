@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'message_from_binary_code'
 
 MESSAGE_FROM_BINARY_CODE_TEST_I_O = [
   { test: 1, input: '010010000110010101101100011011000110111100100001',
