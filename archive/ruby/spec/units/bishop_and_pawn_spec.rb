@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'bishop_and_pawn'
 
 BISHOP_AND_PAWN_TEST_I_O = [
   { test: 1, input1: 'a1', input2: 'c3', output: true }, # 01

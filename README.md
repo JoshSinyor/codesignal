@@ -126,7 +126,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | KnapsackLight       | [Ruby](archive/ruby/lib/knapsack_light.rb)        |
         | longestDigitsPrefix | [Ruby](archive/ruby/lib/longest_digits_prefix.rb) |
         | digitDegree         | [Ruby](archive/ruby/lib/digit_degree.rb)          |
-        | Bishop and Pawn     |                                                   |
+        | Bishop and Pawn     | [Ruby](archive/ruby/lib/bishop_and_pawn.rb)       |
 
   10. <details>
         <summary>Eruption of Light</summary>
