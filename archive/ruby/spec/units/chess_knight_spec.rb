@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'chess_knight'
 
 CHESS_KNIGHT_TEST_I_O = [
   { test: 1, input: 'a1', output: 2 }, # 01
