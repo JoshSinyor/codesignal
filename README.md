@@ -83,7 +83,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | arrayMaximalAdjacentDifference | [Ruby](archive/ruby/lib/array_maximal_adjacent_difference.rb) |
         | isIPv4Address                  | [Ruby](archive/ruby/lib/is_ipv4_address.rb)                   |
         | avoidObstacles                 | [Ruby](archive/ruby/lib/avoid_obstacles.rb)                   |
-        | Box Blur                       |                                                               |
+        | Box Blur                       | [Ruby](archive/ruby/lib/box_blur.rb)                          |
         | Minesweeper                    |                                                               |
 
   6. <details>
