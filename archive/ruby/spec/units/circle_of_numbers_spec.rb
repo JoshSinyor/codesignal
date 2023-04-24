@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'circle_of_numbers'
 
 CIRCLE_OF_NUMBERS_TEST_I_O = [
   { test: 1, input1: 10, input2: 2, output: 7 }, # 01

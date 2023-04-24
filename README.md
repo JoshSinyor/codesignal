@@ -102,7 +102,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                               | Ruby                                                            |
         |-------------------------------|-----------------------------------------------------------------|
-        | Circle of Numbers             |                                                                 |
+        | Circle of Numbers             | [Ruby](archive/ruby/lib/circle_of_numbers.rb)                   |
         | depositProfit                 |                                                                 |
         | absoluteValuesSumMinimization |                                                                 |
         | stringsRearrangement          |                                                                 |
