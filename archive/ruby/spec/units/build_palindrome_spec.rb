@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'build_palindrome'
 
 BUILD_PALINDROME_TEST_I_O = [
   { test: 1, input: 'abcdc', output: 'abcdcba' }, # 01
