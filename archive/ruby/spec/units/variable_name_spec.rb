@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'variable_name'
 
 VARIABLE_NAME_TEST_I_O = [
   { test: 1, input: 'var_1__Int', output: true }, # 01
