@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'add_border'
 
 ADD_BORDER_TEST_I_O = [
   { test: 1, input: %w[abc ded], output: ['*****', '*abc*', '*ded*', '*****'] }, # 01

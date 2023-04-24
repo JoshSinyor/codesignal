@@ -69,7 +69,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |                       | Ruby                                               |
         |-----------------------|----------------------------------------------------|
         | alternatingSums       | [Ruby](archive/ruby/lib/alternating_sums.rb)       |
-        | Add Border            |                                                    |
+        | Add Border            | [Ruby](archive/ruby/lib/add_border.rb)             |
         | Are Similar?          |                                                    |
         | arrayChange           |                                                    |
         | palindromeRearranging |                                                    |
