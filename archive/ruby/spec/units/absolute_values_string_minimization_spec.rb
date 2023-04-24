@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'absolute_values_string_minimization'
 
 ABSOLUTE_VALUES_STRING_MINIMIZATION_TEST_I_O = [
   { test: 1, input: [2, 4, 7], output: 4 }, # 01
