@@ -158,7 +158,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | Valid Time            | [Ruby](archive/ruby/lib/valid_time.rb)               |
         | sumUpNumbers          | [Ruby](archive/ruby/lib/sum_up_numbers.rb)           |
         | Different Squares     | [Ruby](archive/ruby/lib/different_squares.rb)        |
-        | digitsProduct         |                                                      |
+        | digitsProduct         | [Ruby](archive/ruby/lib/digits_product.rb)           |
         | File Naming           |                                                      |
         | messageFromBinaryCode |                                                      |
         | spiralNumbers         |                                                      |

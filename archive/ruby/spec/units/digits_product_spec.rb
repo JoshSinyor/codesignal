@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'digits_product'
 
 DIGITS_PRODUCT_TEST_I_O = [
   { test: 1, input: 12, output: 26 }, # 01
