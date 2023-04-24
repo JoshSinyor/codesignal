@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'sudoku'
 
 SUDOKU_TEST_I_O = [
   { test: 1, input: [[1, 3, 2, 5, 4, 6, 9, 8, 7],

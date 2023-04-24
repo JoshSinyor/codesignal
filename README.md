@@ -162,7 +162,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | File Naming           | [Ruby](archive/ruby/lib/file_naming.rb)              |
         | messageFromBinaryCode | [Ruby](archive/ruby/lib/message_from_binary_code.rb) |
         | spiralNumbers         | [Ruby](archive/ruby/lib/spiral_numbers.rb)           |
-        | Sudoku                |                                                      |
+        | Sudoku                | [Ruby](archive/ruby/lib/sudoku.rb)                   |
 
 ---
 
