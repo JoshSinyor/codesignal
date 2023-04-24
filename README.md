@@ -72,7 +72,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | Add Border            | [Ruby](archive/ruby/lib/add_border.rb)             |
         | Are Similar?          | [Ruby](archive/ruby/lib/are_similar.rb)            |
         | arrayChange           | [Ruby](archive/ruby/lib/array_change.rb)           |
-        | palindromeRearranging |                                                    |
+        | palindromeRearranging | [Ruby](archive/ruby/lib/palindrome_rearranging.rb) |
 
   5. <details>
         <summary>Island of Knowledge</summary>

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'palindrome_rearranging'
 
 PALINDROME_REARRANGING_TEST_I_O = [
   { test: 1, input: 'aabb', output: true }, # 01
