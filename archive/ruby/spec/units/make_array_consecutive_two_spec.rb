@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'make_array_consecutive_two'
 
 MAKE_ARRAY_CONSECUTIVE_TWO_TEST_I_O = [
   { test: 1, input: [6, 2, 3, 8], output: 3 }, # 01

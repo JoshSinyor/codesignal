@@ -48,7 +48,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |--------------------------|--------------------------------------------------------|
         | adjacentElementsProduct  | [Ruby](archive/ruby/lib/adjacent_elements_product.rb)  |
         | shapeArea                | [Ruby](archive/ruby/lib/shape_area.rb)                 |
-        | Make Array Consecutive 2 |                                                        |
+        | Make Array Consecutive 2 | [Ruby](archive/ruby/lib/make_array_consecutive_two.rb) |
         | almostIncreasingSequence |                                                        |
         | matrixElementsSum        |                                                        |
 
