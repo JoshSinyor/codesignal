@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'elections_winners'
 
 ELECTIONS_WINNERS_TEST_I_O = [
   { test: 1, input1: [2, 3, 5, 2], input2: 3, output: 2 }, # 01

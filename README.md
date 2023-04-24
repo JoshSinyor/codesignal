@@ -136,7 +136,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | isBeautifulString | [Ruby](archive/ruby/lib/is_beautiful_string.rb) |
         | Find Email Domain | [Ruby](archive/ruby/lib/find_email_domain.rb)   |
         | buildPalindrome   | [Ruby](archive/ruby/lib/build_palindrome.rb)    |
-        | Elections Winners |                                                 |
+        | Elections Winners | [Ruby](archive/ruby/lib/elections_winners.rb)    |
         | Is MAC48 Address? |                                                 |
 
   11. <details>
