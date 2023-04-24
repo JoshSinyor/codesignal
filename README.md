@@ -79,7 +79,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                                | Ruby                                                          |
         |--------------------------------|---------------------------------------------------------------|
-        | areEquallyStrong               |                                                               |
+        | areEquallyStrong               | [Ruby](archive/ruby/lib/are_equally_strong.rb)                |
         | arrayMaximalAdjacentDifference |                                                               |
         | isIPv4Address                  |                                                               |
         | avoidObstacles                 |                                                               |

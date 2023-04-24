@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'are_equally_strong'
 
 ARE_EQUALLY_STRONG_TEST_I_O = [
   { test: 1, input1: 10, input2: 15, input3: 15, input4: 10, output: true }, # 01
