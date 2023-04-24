@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'knapsack_light'
 
 KNAPSACK_LIGHT_TEST_I_O = [
   { test: 1, input1: 10, input2: 5, input3: 6, input4: 4, input5: 8, output: 10 }, # 01
