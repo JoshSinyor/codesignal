@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'minesweeper'
 
 MINESWEEPER_TEST_I_O = [
   { test: 1, input: [[true, false, false],
