@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'different_squares'
 
 DIFFERENT_SQUARES_TEST_I_O = [
   { test: 1, input: [[1, 2, 1], \
