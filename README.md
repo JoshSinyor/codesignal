@@ -115,7 +115,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | extractEachKth         | [Ruby](archive/ruby/lib/extract_each_kth.rb)          |
         | firstDigit             | [Ruby](archive/ruby/lib/first_digit.rb)               |
         | differentSymbolsNaive  | [Ruby](archive/ruby/lib/different_symbols_naive.rb)   |
-        | arrayMaxConsecutiveSum |                                                       |
+        | arrayMaxConsecutiveSum | [Ruby](archive/ruby/lib/array_max_consecutive_sum.rb) |
 
   9. <details>
         <summary>Dark Wilderness</summary>

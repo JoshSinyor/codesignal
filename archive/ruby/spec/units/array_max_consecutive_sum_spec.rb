@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'array_max_consecutive_sum'
 require 'json'
 
 FILE_NAME = 'array_max_consecutive_test-'
