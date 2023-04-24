@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'are_similar'
 
 ARE_SIMILAR_TEST_I_O = [
   { test: 1, input1: [1, 2, 3], input2: [1, 2, 3], output: true }, # 01
