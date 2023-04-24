@@ -137,7 +137,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         | Find Email Domain | [Ruby](archive/ruby/lib/find_email_domain.rb)   |
         | buildPalindrome   | [Ruby](archive/ruby/lib/build_palindrome.rb)    |
         | Elections Winners | [Ruby](archive/ruby/lib/elections_winners.rb)    |
-        | Is MAC48 Address? |                                                 |
+        | Is MAC48 Address? | [Ruby](archive/ruby/lib/is_mac48_address.rb)    |
 
   11. <details>
         <summary>Rainbow of Clarity</summary>

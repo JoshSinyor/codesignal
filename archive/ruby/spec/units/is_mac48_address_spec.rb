@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'is_mac48_address'
 
 IS_MAC48_ADDRESS_TEST_I_O = [
   { test: 1, input: '00-1B-63-84-45-E6', output: true }, # 01
