@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'common_character_count'
 
 COMMON_CHARACTER_COUNT_TEST_I_O = [
   { test: 1, input1: 'aabcc', input2: 'adcaa', output: 3 }, # 01
