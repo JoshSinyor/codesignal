@@ -39,7 +39,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |-----------------|-----------------------------------------------|
         | add             | [Ruby](archive/ruby/lib/add.rb)               |
         | centuryFromYear | [Ruby](archive/ruby/lib/century_from_year.rb) |
-        | checkPalindrome |                                               |
+        | checkPalindrome | [Ruby](archive/ruby/lib/check_palindrome.rb)  |
 
   2. <details>
         <summary>Edge of the Ocean</summary>

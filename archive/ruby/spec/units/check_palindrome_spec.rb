@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'check_palindrome'
 
 CHECK_PALINDROME_TEST_I_O = [
   { test: 1, input: 'aabaa', output: true }, # 01
