@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'find_email_domain'
 
 FIND_EMAIL_DOMAIN_TEST_I_O = [
   { test: 1, input: 'prettyandsimple@example.com', output: 'example.com' }, # 01
