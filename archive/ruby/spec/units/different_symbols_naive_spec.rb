@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'different_symbols_naive'
 
 DIFFERENT_SYMBOLS_NAIVE_TEST_I_O = [
   { test: 1, input: 'cabca', output: 3 }, # 01
