@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'sort_by_height'
 
 SORT_BY_HEIGHT_TEST_I_O = [
   { test: 1, input: [-1, 150, 190, 170, -1, -1, 160, 180],
