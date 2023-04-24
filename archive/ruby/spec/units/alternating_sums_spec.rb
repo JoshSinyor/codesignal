@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'alternating_sums'
 
 ALTERNATING_SUMS_TEST_I_O = [
   { test: 1, input: [50, 60, 60, 45, 70], output: [180, 105] }, # 01

@@ -68,7 +68,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
 
         |                       | Ruby                                               |
         |-----------------------|----------------------------------------------------|
-        | alternatingSums       |                                                    |
+        | alternatingSums       | [Ruby](archive/ruby/lib/alternating_sums.rb)       |
         | Add Border            |                                                    |
         | Are Similar?          |                                                    |
         | arrayChange           |                                                    |
