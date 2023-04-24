@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'solution'
+require 'line_encoding'
 
 LINE_ENCODING_TEST_I_O = [
   { test: 1, input: 'aabbbc', output: '2a3bc' }, # 01

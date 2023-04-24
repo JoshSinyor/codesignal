@@ -145,7 +145,7 @@ This project requires Ruby 3.0.0. If you do not have Ruby 3.0.0, install it usin
         |              | Ruby                                      |
         |--------------|-------------------------------------------|
         | isDigit      | [Ruby](archive/ruby/lib/is_digit.rb)      |
-        | lineEncoding |                                           |
+        | lineEncoding | [Ruby](archive/ruby/lib/line_encoding.rb) |
         | chessKnight  |                                           |
         | deleteDigit  |                                           |
 
