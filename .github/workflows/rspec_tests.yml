@@ -13,7 +13,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-    - name: Setup Environment
+    - name: Setup Ruby Environment
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.0.0
@@ -25,4 +25,9 @@ jobs:
 
     - name: Run Tests
       run: |
-        rspec
+        bundle exec rspec
+
+    - name: Run Archive Tests
+      run: |
+        cd $GITHUB_WORKSPACE/archive/ruby
+        bundle exec rspec
