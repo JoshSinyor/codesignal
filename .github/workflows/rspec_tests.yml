@@ -9,6 +9,9 @@ jobs:
   rspec_tests:
     runs-on: ubuntu-latest
 
+    env:
+      BUNDLE_WITHOUT: linters
+
     steps:
     - name: Checkout
       uses: actions/checkout@v3
@@ -17,17 +20,13 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         ruby-version: 3.0.0
-
-    - name: Install Gems
-      run: |
-        bundle config set --local without 'linters'
-        bundle install
+        bundler-cache: true
 
     - name: Run Tests
       run: |
         bundle exec rspec
-
-    - name: Run Archive Tests
+  
+    - name: Run Archived Tests
       run: |
         cd $GITHUB_WORKSPACE/archive/ruby
         bundle exec rspec
