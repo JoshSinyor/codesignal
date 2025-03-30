@@ -4,15 +4,15 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-ruby '3.2.0'
+ruby '3.3.7'
 
 group :test do
-  gem 'rspec', '>= 3.12.0', require: false
+  gem 'rspec', '>= 3.13.0', require: false
   gem 'simplecov', '>= 0.22.0', require: false
-  gem 'simplecov-console', '>= 0.9.1', require: false
+  gem 'simplecov-console', '>= 0.9.3', require: false
 end
 
 group :linters do
-  gem 'rubocop', '>= 1.51.0', require: false
-  gem 'rubocop-rspec', '>= 2.22.0', require: false
+  gem 'rubocop', '>= 1.75.1', require: false
+  gem 'rubocop-rspec', '>= 3.5.0', require: false
 end
