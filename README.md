@@ -1,4 +1,4 @@
-![Ruby Version](https://img.shields.io/badge/ruby-3.0-red?logo=ruby)
+![Ruby Version](https://img.shields.io/badge/ruby-3.3.7-red?logo=ruby)
 ![License](https://img.shields.io/github/license/JoshSinyor/codesignal)
 ![Code Size](https://img.shields.io/github/languages/code-size/JoshSinyor/codesignal)
 ![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen?&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnMvPjxwYXRoIGQ9Ik0yNyAxNHYtMWEyIDIgMCAwMC0yLTJIN2EyIDIgMCAwMC0yIDJ2MWEyIDIgMCAwMC0xIDF2MmExIDEgMCAwMDEgMnYxYTIgMiAwIDAwMiAxaDE4YTIgMiAwIDAwMi0xdi0xYTIgMiAwIDAwMS0ydi0yYTIgMiAwIDAwLTEtMXpNMTYgMmExMCAxMCAwIDAwLTEwIDloMjBhMTAgMTAgMCAwMC0xMC05ek0xMyAyNGg2djFsMS0xLTEtMWgtN3YybDEtMXoiLz48cGF0aCBmaWxsPSIjZWMxYzI0IiBkPSJNMjQgMThIOGExIDEgMCAxMTAtM2gxNmExIDEgMCAwMTEgMSAxIDEgMCAwMS0xIDJ6Ii8+PHBhdGggZD0iTTIzIDIydjRhMiAyIDAgMDEtMiAyaC0xYTEgMSAwIDAxMC0xbC0yLTFhMSAxIDAgMDAwLTFoLTRhMSAxIDAgMDAwIDFsLTIgMWExIDEgMCAwMTAgMWgtMWEyIDIgMCAwMS0yLTJ2LTRIN3Y0YTQgNCAwIDAwNCA0aDEwYTQgNCAwIDAwNC00di00eiIvPjwvc3ZnPg==)
@@ -22,7 +22,7 @@ A repository for offline testing of online tests.
 
 ## Installation
 
-This project requires Ruby 3.2.0. If you do not have Ruby 3.2.0, install it using [these instructions](https://www.ruby-lang.org/en/documentation/installation/).
+This project requires Ruby 3.3.7. If you do not have Ruby 3.3.7, install it using [these instructions](https://www.ruby-lang.org/en/documentation/installation/).
 
 This project requires Python 3.11. If you do not have Python 3.11, install it using [these instructions](https://wiki.python.org/moin/BeginnersGuide/Download).
 
